@@ -1,0 +1,16 @@
+Plug this RangeValueBar prefab under your object
+that contains your range value. Add the RangeValueBar
+as a listener to your RangeValue.
+
+Works by Foreground bar x size being set to 
+range value normalized to Background x
+
+Change the foreground x pivot to .5 to expand from 
+center
+
+Incomplete feature: Increasing the horizontal
+size of the bar doesn't work unless you manually
+edit them.
+- If the background bar would stretch horizontal
+it would work, but this causes the background to
+come to the front for some reason.
