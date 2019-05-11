@@ -16,23 +16,25 @@ public class Seeker : MonoBehaviour {
     // Physics movement variables
     public Rigidbody2D body;
     public float minDistanceToTarget = 1f;
-    public float accel;
-    public float turnSpeed;
-    public float maxSpeed;
+    public float accel = 0.5f;
+    public float turnSpeed = 1f;
+    public float maxSpeed = 4.5f;
 
     void Start() {
         if (objectToMove == null) {
             objectToMove = this.gameObject.transform;
-            body = GetComponent<Rigidbody2D>();
         }
-	}
+        body = objectToMove.GetComponent<Rigidbody2D>();
+    }
 
 	void Update() {
-		objectToMove.position = Vector3.MoveTowards (objectToMove.position, destination.transform.position, speed);
+        //objectToMove.position = Vector3.MoveTowards (objectToMove.position, destination.transform.position, speed);
 
-        objectToMove.rotation = getNewRotation();
+        MoveTowards(speed);
 
-		if (objectToMove.position == destination.transform.position) {
+        //objectToMove.rotation = getNewRotation();
+
+        if (DistanceToTarget() <= minDistanceToTarget) {
 			unityEvent.Invoke();
         } 	
     }
@@ -40,6 +42,12 @@ public class Seeker : MonoBehaviour {
     private Quaternion getNewRotation() {
         Quaternion q = Quaternion.AngleAxis(angleToTarget(), Vector3.forward);
         return Quaternion.Slerp(transform.rotation, q, 1.0f);
+
+    }
+    private Quaternion getNewRotation(float scale)
+    {
+        Quaternion q = Quaternion.AngleAxis(angleToTarget(), Vector3.forward);
+        return Quaternion.Slerp(transform.rotation, q, scale);
 
     }
 
@@ -55,7 +63,7 @@ public class Seeker : MonoBehaviour {
 
     void MoveTowards(float moveSpeed)
     {
-
+        Debug.Log("Distance to target " + DistanceToTarget());
         //if up pressed
         if (DistanceToTarget() > minDistanceToTarget)
         {
@@ -68,15 +76,18 @@ public class Seeker : MonoBehaviour {
                 body.velocity = body.velocity.normalized * moveSpeed;
             }
         }
-        float newRotation = angleToTarget();
-        //if right/left pressed add torque to turn
-        if (Mathf.Abs(newRotation) > 0.001f)
-        {
-            //scale the amount you can turn based on current velocity so slower turning below max speed
-            float scale = Mathf.Lerp(0f, turnSpeed, body.velocity.magnitude / maxSpeed);
-            //axis is opposite what we want by default
-            body.AddTorque(-newRotation * scale);
-        }
+
+        //float newRotation = angleToTarget() - transform.eulerAngles.z;
+        //Debug.Log("Angle to target " + newRotation +"(" + angleToTarget() + ", " + transform.eulerAngles.z+")");
+        ////if right/left pressed add torque to turn
+        //if (Mathf.Abs(newRotation) > 0.001f)
+        //{
+        //scale the amount you can turn based on current velocity so slower turning below max speed
+        float scale = Mathf.Lerp(0f, turnSpeed, body.velocity.magnitude / maxSpeed);
+        //    //axis is opposite what we want by default
+        //    body.AddTorque(-Mathf.Sign(newRotation) * scale);
+        //}
+        objectToMove.rotation = getNewRotation(scale);
     }
 
     float DistanceToTarget()

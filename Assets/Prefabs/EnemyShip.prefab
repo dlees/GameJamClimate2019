@@ -78,6 +78,11 @@ MonoBehaviour:
     Variable: {fileID: 11400000, guid: e027ed953195c4d41872832c359ed1f1, type: 2}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
+  body: {fileID: 0}
+  minDistanceToTarget: 1
+  accel: 0.5
+  turnSpeed: 0.025
+  maxSpeed: 4.5
 --- !u!1 &3839381075346281230
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,6 +161,11 @@ MonoBehaviour:
     Variable: {fileID: 11400000, guid: e027ed953195c4d41872832c359ed1f1, type: 2}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
+  body: {fileID: 0}
+  minDistanceToTarget: 1
+  accel: 0.5
+  turnSpeed: 0.025
+  maxSpeed: 4.5
 --- !u!1 &3839381075794457885
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,8 +329,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 0.5
+  m_AngularDrag: 0.5
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
