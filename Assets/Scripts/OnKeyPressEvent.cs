@@ -1,19 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class OnKeyPressEvent : MonoBehaviour
-{
+public class OnKeyPressEvent : MonoBehaviour {
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public KeyCode key;
+    public UnityEvent eventToTrigger;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void Update() {
+        if (Input.GetKeyUp(key)) {
+            eventToTrigger.Invoke();
+        }
     }
 }
