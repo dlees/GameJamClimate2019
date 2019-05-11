@@ -6,7 +6,6 @@ public class FloatVariable : ScriptableObject, Valueable<float> {
     [Multiline]
     public string DeveloperDescription = "";
 #endif
-    public float defaultValue;
     public float currentValue;
 
     public virtual float Value {
@@ -26,11 +25,7 @@ public class FloatVariable : ScriptableObject, Valueable<float> {
     private void OnEnable() {
         hideFlags = HideFlags.DontUnloadUnusedAsset;
     }
-
-    public void Reset() {
-        Value = defaultValue;
-    }
-
+    
 	public float get() {
         return Value;
 	}
