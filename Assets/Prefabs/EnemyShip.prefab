@@ -456,7 +456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3839381077191929744}
-  - component: {fileID: 1561872970}
+  - component: {fileID: 5834972961620669773}
   - component: {fileID: 1561872971}
   - component: {fileID: 1561872969}
   m_Layer: 0
@@ -480,7 +480,7 @@ Transform:
   m_Father: {fileID: 3839381076910042990}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1561872970
+--- !u!114 &5834972961620669773
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -489,18 +489,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 3839381077191929745}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7072bde17cebb34780711cb72e0b0b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ccb22fc008c244738e2523ba7d86c4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   turret: {fileID: 515469654}
-  projectile: {fileID: 3059935910243442017, guid: b60e0c664e78047f185b52ff1c19cbcc,
+  projectile: {fileID: 9148531879597702067, guid: d0e172fc215ee487b8906e5bd604b142,
     type: 3}
-  minDistance: 1
+  minDistance: 2
   maxDistance: 10
   turnSpeed: 1
   minAngleDiffToFire: 1
-  ProjectileFireVelocity: 10
+  ProjectileFireVelocity: 150
 --- !u!114 &1561872971
 MonoBehaviour:
   m_ObjectHideFlags: 0

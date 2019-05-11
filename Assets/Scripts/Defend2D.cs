@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Defend : MonoBehaviour
+public class Defend2D : MonoBehaviour
 {
 
     public GameObject target;
@@ -41,12 +41,10 @@ public class Defend : MonoBehaviour
             return;
         }
 
-        float theta = 0.5f * Mathf.Asin(9.81f * DistanceToTarget() / Mathf.Pow(ProjectileFireVelocity, 2f)) * Mathf.Rad2Deg;
-        Debug.Log("Turret: I would have fired with this angle: " + theta);
         GameObject p = Instantiate(projectile, turret.transform.position, turret.transform.rotation);
-        p.transform.localRotation = Quaternion.Euler(theta, 0f, 0f);
-        p.GetComponent<Rigidbody>().AddRelativeForce(Vector3.up * ProjectileFireVelocity);
-
+        float scale = Mathf.Lerp(0f, turnSpeed, DistanceToTarget() / maxDistance);
+        p.GetComponent<Rigidbody2D>().AddRelativeForce(Vector2.up * ProjectileFireVelocity * scale);
+        Destroy(p, 1);
     }
 
     void RotateTurretToTarget()
