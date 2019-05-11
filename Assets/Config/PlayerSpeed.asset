@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PlayerSpeed
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  defaultValue: 0
-  currentValue: 0
+  defaultValue: 20
+  currentValue: 20
   varName: 

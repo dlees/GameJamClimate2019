@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TankerSpeed
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  defaultValue: 0
-  currentValue: 0
+  defaultValue: 0.05
+  currentValue: 0.05
   varName: 
