@@ -8,11 +8,9 @@ public class PlayerMovement : MonoBehaviour {
 
     private float horizontal;
     private float vertical;
-    public float accel = 0.025f;
-    public float turnSpeed = 2f;
-    public float maxSpeed = 2f;
-    public float moveLimiter = 0.7f;
-    public float runSpeed = 20.0f;
+    public float accel;
+    public float turnSpeed;
+    public float maxSpeed;
 
     void Start() {
         body = GetComponent<Rigidbody2D>();
@@ -25,14 +23,7 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     void FixedUpdate() {
-        //if (horizontal != 0 && vertical != 0) // Check for diagonal movement
-        //{
-        //    // limit movement speed diagonally, so you move at 70% speed
-        //    horizontal *= moveLimiter;
-        //    vertical *= moveLimiter;
-        //}
 
-        //body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
         //if up pressed
         if (vertical > 0)
         {
@@ -47,7 +38,7 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         //if right/left pressed add torque to turn
-        if (Mathf.Abs(horizontal) > 0.0001f)
+        if (Mathf.Abs(horizontal) > 0.001f)
         {
             //scale the amount you can turn based on current velocity so slower turning below max speed
             float scale = Mathf.Lerp(0f, turnSpeed, body.velocity.magnitude / maxSpeed);
