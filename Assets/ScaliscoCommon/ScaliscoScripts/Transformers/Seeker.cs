@@ -20,6 +20,8 @@ public class Seeker : MonoBehaviour {
     public float turnSpeed = 1f;
     public float maxSpeed = 4.5f;
 
+    public bool shouldMoveAway = false;
+
     void Start() {
         if (objectToMove == null) {
             objectToMove = this.gameObject.transform;
@@ -29,8 +31,7 @@ public class Seeker : MonoBehaviour {
 
 	void Update() {
         //objectToMove.position = Vector3.MoveTowards (objectToMove.position, destination.transform.position, speed);
-
-        MoveTowards(speed);
+        MoveTowards(speed, shouldMoveAway?-1: 1);
 
         //objectToMove.rotation = getNewRotation();
 
@@ -61,14 +62,13 @@ public class Seeker : MonoBehaviour {
 		destination = newDestination;
 	}
 
-    void MoveTowards(float moveSpeed)
+    void MoveTowards(float moveSpeed, float direction)
     {
-        Debug.Log("Distance to target " + DistanceToTarget());
         //if up pressed
         if (DistanceToTarget() > minDistanceToTarget)
         {
             //add force
-            body.AddRelativeForce(Vector2.up * accel);
+            body.AddRelativeForce(Vector2.up * accel * direction);
 
             //if we are going too fast, cap speed
             if (body.velocity.magnitude > moveSpeed)
