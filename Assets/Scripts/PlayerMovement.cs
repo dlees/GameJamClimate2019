@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour {
     private float vertical;
     public float moveLimiter = 0.7f;
 
-    public float runSpeed = 20.0f;
+    public FloatReference runSpeed;
 
     void Start() {
         body = GetComponent<Rigidbody2D>();
@@ -30,6 +30,6 @@ public class PlayerMovement : MonoBehaviour {
             vertical *= moveLimiter;
         }
 
-        body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
+        body.velocity = new Vector2(horizontal * runSpeed.Value, vertical * runSpeed.Value);
     }
 }

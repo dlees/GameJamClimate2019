@@ -8,16 +8,15 @@ using UnityEngine.Events;
  * 
  * */
 public class Seeker : MonoBehaviour {
-
-	public GameObject destination;
+    public Transform objectToMove = null;
+    public GameObject destination;
 	public UnityEvent unityEvent;
-	public float speed = 20.0f;
-
-	private Transform objectToMove;
+	public FloatReference speed;
 
 	void Start() {
-		objectToMove = this.gameObject.transform;
-        speed *= Screen.height / 600;
+        if (objectToMove == null) {
+            objectToMove = this.gameObject.transform;
+        }
 	}
 
 	void Update() {
