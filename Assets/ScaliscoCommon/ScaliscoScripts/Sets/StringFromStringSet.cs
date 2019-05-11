@@ -5,7 +5,7 @@ using UnityEngine;
 public class StringFromStringSet : MonoBehaviour
 {
     [SerializeField]
-    private StringSetReference stringSet;
+    private StringSetReference stringSet = null;
 
     private int curIndex = 0;
 
