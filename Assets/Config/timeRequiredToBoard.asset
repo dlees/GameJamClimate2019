@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: timeRequiredToBoard
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  currentValue: 0
+  currentValue: 3
   varName: 

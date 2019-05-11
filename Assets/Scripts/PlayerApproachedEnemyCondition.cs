@@ -7,11 +7,11 @@ public class PlayerApproachedEnemyCondition : Condition
     private bool isApproached = false;
     private GameObject enemyApproached = null;
 
-    private float timeInCollider = 0 ;
+    public FloatReference timeInCollider;
     public FloatReference timeRequiredToBoard;
 
     public override bool isConditionSatisfied() {
-        return timeInCollider > timeRequiredToBoard;
+        return timeInCollider.Value > timeRequiredToBoard.Value;
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
@@ -21,12 +21,12 @@ public class PlayerApproachedEnemyCondition : Condition
     private void OnTriggerExit2D(Collider2D collision) {
         isApproached = false;
         enemyApproached = null;
-        timeInCollider = 0;
+        timeInCollider.Value = 0;
     }
 
      void Update() {
         if (isApproached) {
-            timeInCollider += Time.deltaTime;
+            timeInCollider.Value += Time.deltaTime;
         }
     }
 }
