@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-    public Rigidbody2D body;
+    public Rigidbody2D body;    
 
     private float horizontal;
     private float vertical;
+    public float accel = 0.025f;
+    public float turnSpeed = 2f;
+    public float maxSpeed = 2f;
     public float moveLimiter = 0.7f;
-
     public float runSpeed = 20.0f;
 
     void Start() {
@@ -23,13 +25,34 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     void FixedUpdate() {
-        if (horizontal != 0 && vertical != 0) // Check for diagonal movement
+        //if (horizontal != 0 && vertical != 0) // Check for diagonal movement
+        //{
+        //    // limit movement speed diagonally, so you move at 70% speed
+        //    horizontal *= moveLimiter;
+        //    vertical *= moveLimiter;
+        //}
+
+        //body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
+        //if up pressed
+        if (vertical > 0)
         {
-            // limit movement speed diagonally, so you move at 70% speed
-            horizontal *= moveLimiter;
-            vertical *= moveLimiter;
+            //add force
+            body.AddRelativeForce(Vector2.up * accel);
+
+            //if we are going too fast, cap speed
+            if (body.velocity.magnitude > maxSpeed)
+            {
+                body.velocity = body.velocity.normalized * maxSpeed;
+            }
         }
 
-        body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
+        //if right/left pressed add torque to turn
+        if (Mathf.Abs(horizontal) > 0.0001f)
+        {
+            //scale the amount you can turn based on current velocity so slower turning below max speed
+            float scale = Mathf.Lerp(0f, turnSpeed, body.velocity.magnitude / maxSpeed);
+            //axis is opposite what we want by default
+            body.AddTorque(-Input.GetAxis("Horizontal") * scale);
+        }
     }
 }
