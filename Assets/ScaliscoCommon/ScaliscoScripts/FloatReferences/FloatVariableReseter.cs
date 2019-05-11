@@ -13,7 +13,6 @@ public class FloatVariableReseter : MonoBehaviour {
                 continue;
             }
 
-            floatVar.Reset();
         }
 
 	}
