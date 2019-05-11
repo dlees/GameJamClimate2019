@@ -8,9 +8,10 @@ public class PlayerApproachedEnemyCondition : Condition
     private GameObject enemyApproached = null;
 
     private float timeInCollider = 0 ;
+    private FloatReference timeRequiredToBoard;
 
     public override bool isConditionSatisfied() {
-        return timeInCollider > 2.0f;
+        return timeInCollider > timeRequiredToBoard;
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
