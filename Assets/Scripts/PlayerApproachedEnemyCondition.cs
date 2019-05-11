@@ -8,7 +8,7 @@ public class PlayerApproachedEnemyCondition : Condition
     private GameObject enemyApproached = null;
 
     private float timeInCollider = 0 ;
-    private FloatReference timeRequiredToBoard;
+    public FloatReference timeRequiredToBoard;
 
     public override bool isConditionSatisfied() {
         return timeInCollider > timeRequiredToBoard;

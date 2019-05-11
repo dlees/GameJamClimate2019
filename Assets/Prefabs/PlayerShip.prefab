@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6970588516592878801}
   - component: {fileID: 6970588516592878800}
   - component: {fileID: 6970588516592878799}
+  - component: {fileID: 1018526457}
+  - component: {fileID: 1018526458}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -95,7 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 6970588516592878799}
   accel: 1
-  turnSpeed: 1.5
+  turnSpeed: 0.5
   maxSpeed: 5
 --- !u!50 &6970588516592878799
 Rigidbody2D:
@@ -111,10 +113,44 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0.5
-  m_AngularDrag: 0.5
+  m_AngularDrag: 1.5
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!70 &1018526457
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6970588516592878798}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.2, y: 0.2}
+  m_Direction: 0
+--- !u!114 &1018526458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6970588516592878798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce84fa5fa925d9d4b8008cc585d6a571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeRequiredToBoard:
+    floatType: 0
+    ConstantValue: 2
+    Variable: {fileID: 0}
+    rangeValue: {fileID: 0}
+    floatRef: {fileID: 0}
