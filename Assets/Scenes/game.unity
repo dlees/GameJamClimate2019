@@ -2348,5 +2348,10 @@ PrefabInstance:
       propertyPath: runSpeed.floatType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6970588516592878800, guid: 5c8530826b78ad74dab59ab1289a2365,
+        type: 3}
+      propertyPath: turnSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c8530826b78ad74dab59ab1289a2365, type: 3}

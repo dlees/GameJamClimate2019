@@ -7,8 +7,10 @@ public class PlayerApproachedEnemyCondition : Condition
     private bool isApproached = false;
     private GameObject enemyApproached = null;
 
+    private float timeInCollider = 0 ;
+
     public override bool isConditionSatisfied() {
-        return isApproached;
+        return timeInCollider > 2.0f;
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
@@ -18,6 +20,12 @@ public class PlayerApproachedEnemyCondition : Condition
     private void OnTriggerExit2D(Collider2D collision) {
         isApproached = false;
         enemyApproached = null;
+        timeInCollider = 0;
     }
 
+     void Update() {
+        if (isApproached) {
+            timeInCollider += Time.deltaTime;
+        }
+    }
 }
