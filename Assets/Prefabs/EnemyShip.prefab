@@ -78,11 +78,8 @@ MonoBehaviour:
     Variable: {fileID: 11400000, guid: e027ed953195c4d41872832c359ed1f1, type: 2}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
-  body: {fileID: 0}
+  movement: {fileID: 381420145}
   minDistanceToTarget: 1
-  accel: 0.5
-  turnSpeed: 0.025
-  maxSpeed: 4.5
   shouldMoveAway: 0
 --- !u!1 &3839381075346281230
 GameObject:
@@ -162,11 +159,8 @@ MonoBehaviour:
     Variable: {fileID: 11400000, guid: e027ed953195c4d41872832c359ed1f1, type: 2}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
-  body: {fileID: 0}
+  movement: {fileID: 381420145}
   minDistanceToTarget: 1
-  accel: 0.5
-  turnSpeed: 0.025
-  maxSpeed: 4.5
   shouldMoveAway: 0
 --- !u!1 &3839381075794457885
 GameObject:
@@ -244,6 +238,7 @@ GameObject:
   - component: {fileID: 3839381076910042991}
   - component: {fileID: 9106533000388326362}
   - component: {fileID: 5600396324089859062}
+  - component: {fileID: 381420145}
   m_Layer: 0
   m_Name: EnemyShip
   m_TagString: Untagged
@@ -260,7 +255,7 @@ Transform:
   m_GameObject: {fileID: 3839381076910042988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.77, y: -0.235, z: -3.6926756}
-  m_LocalScale: {x: 0.49453318, y: 0.6444826, z: 1}
+  m_LocalScale: {x: 0.7123256, y: 0.6444826, z: 1}
   m_Children:
   - {fileID: 3839381075794457873}
   - {fileID: 3839381077329199106}
@@ -352,9 +347,26 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.014591976, y: -0.0010777205}
-  m_Size: {x: 1.7706442, y: 1.3586749}
-  m_Direction: 1
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.21, y: 1.92}
+  m_Direction: 0
+--- !u!114 &381420145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839381076910042988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5994329b3b46b744ba6d4d01c3262903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 9106533000388326362}
+  objectToMove: {fileID: 3839381076910042990}
+  accel: 0.5
+  turnSpeed: 0.025
+  maxSpeed: 4.5
 --- !u!1 &3839381077191929745
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,7 +378,7 @@ GameObject:
   - component: {fileID: 3839381077191929744}
   - component: {fileID: 1561872970}
   - component: {fileID: 1561872971}
-  - component: {fileID: 1561872972}
+  - component: {fileID: 1561872969}
   m_Layer: 0
   m_Name: DefendSelfStateController
   m_TagString: Untagged
@@ -453,7 +465,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1561872972
+--- !u!114 &1561872969
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -469,29 +481,7 @@ MonoBehaviour:
   destination: {fileID: 0}
   unityEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3839381075346281230}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 3839381075341287548}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   speed:
@@ -500,11 +490,8 @@ MonoBehaviour:
     Variable: {fileID: 11400000, guid: e027ed953195c4d41872832c359ed1f1, type: 2}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
-  body: {fileID: 0}
+  movement: {fileID: 381420145}
   minDistanceToTarget: 1
-  accel: 0.5
-  turnSpeed: 0.025
-  maxSpeed: 4.5
   shouldMoveAway: 1
 --- !u!1 &3839381077329199107
 GameObject:

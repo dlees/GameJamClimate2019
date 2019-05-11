@@ -1088,18 +1088,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce84fa5fa925d9d4b8008cc585d6a571, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!50 &1472482760 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 9106533000388326362, guid: 013cae701ea81ff498e9de6869dd4f74,
-    type: 3}
-  m_PrefabInstance: {fileID: 3839381075942259417}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1472482762 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3839381076910042990, guid: 013cae701ea81ff498e9de6869dd4f74,
-    type: 3}
-  m_PrefabInstance: {fileID: 3839381075942259417}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1513373551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,43 +1466,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556105036}
   m_CullTransparentMesh: 0
---- !u!1 &1561872968 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3839381077191929745, guid: 013cae701ea81ff498e9de6869dd4f74,
-    type: 3}
-  m_PrefabInstance: {fileID: 3839381075942259417}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1561872969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1561872968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f1b476c5b7d0f94ab327858c2e50b2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToMove: {fileID: 1472482762}
-  destination: {fileID: 1018526453}
-  unityEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  speed:
-    floatType: 0
-    ConstantValue: 0
-    Variable: {fileID: 11400000, guid: e027ed953195c4d41872832c359ed1f1, type: 2}
-    rangeValue: {fileID: 0}
-    floatRef: {fileID: 0}
-  body: {fileID: 1472482760}
-  minDistanceToTarget: 1
-  accel: 0.5
-  turnSpeed: 0.025
-  maxSpeed: 4.5
-  shouldMoveAway: 0
 --- !u!1 &1747660387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,11 +2082,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3839381076910042990, guid: 013cae701ea81ff498e9de6869dd4f74,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7123256
-      objectReference: {fileID: 0}
     - target: {fileID: 3839381075794457886, guid: 013cae701ea81ff498e9de6869dd4f74,
         type: 3}
       propertyPath: objectToCompare
@@ -2161,37 +2107,11 @@ PrefabInstance:
       propertyPath: destination
       value: 
       objectReference: {fileID: 495475330}
-    - target: {fileID: 5600396324089859062, guid: 013cae701ea81ff498e9de6869dd4f74,
-        type: 3}
-      propertyPath: m_Direction
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600396324089859062, guid: 013cae701ea81ff498e9de6869dd4f74,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600396324089859062, guid: 013cae701ea81ff498e9de6869dd4f74,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600396324089859062, guid: 013cae701ea81ff498e9de6869dd4f74,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600396324089859062, guid: 013cae701ea81ff498e9de6869dd4f74,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561872972, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
+    - target: {fileID: 1561872969, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
       propertyPath: destination
       value: 
       objectReference: {fileID: 1018526453}
-    m_RemovedComponents:
-    - {fileID: 1561872972, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
 --- !u!1001 &6970588515107107968
 PrefabInstance:
