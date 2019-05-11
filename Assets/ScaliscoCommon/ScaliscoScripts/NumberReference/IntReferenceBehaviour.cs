@@ -22,7 +22,7 @@ public class IntReference : GenericReferenceWithCallback<int, IntReferenceSO, In
 }
 
 public class IntReferenceSO : ScriptableObject, Valueable<int> {
-    IntReference reference;
+    public IntReference reference;
     public int Value { get => reference.Value; set => reference.Value = value; }
 
     public void increment(int i) {
