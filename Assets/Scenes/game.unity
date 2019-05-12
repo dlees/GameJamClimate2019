@@ -621,8 +621,7 @@ MonoBehaviour:
   rangedFloat:
     chosenType: 1
     ConstantValue: 0
-    scriptableObjectVariable: {fileID: 11400000, guid: a5b6cb78d00bf2b41b56de7e1e2ddac6,
-      type: 2}
+    scriptableObjectVariable: {fileID: 0}
     monoBehaviourVariable: {fileID: 0}
   contentPanel: {fileID: 0}
   imagePrefab: {fileID: 0}
@@ -961,8 +960,8 @@ RectTransform:
   - {fileID: 162808044}
   - {fileID: 239460646}
   - {fileID: 346658858}
-  - {fileID: 6237426769527015428}
   - {fileID: 1954671535}
+  - {fileID: 6237426769527015428}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1003,11 +1002,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DeveloperDescription: 
   compared:
-    floatType: 1
+    floatType: 3
     ConstantValue: 4
-    Variable: {fileID: 11400000, guid: a5b6cb78d00bf2b41b56de7e1e2ddac6, type: 2}
+    Variable: {fileID: 0}
     rangeValue: {fileID: 0}
-    floatRef: {fileID: 0}
+    floatRef: {fileID: 1610545908}
   operation: 4
   comparedWith:
     floatType: 0
@@ -1467,6 +1466,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556105036}
   m_CullTransparentMesh: 0
+--- !u!114 &1610545908 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1610545908, guid: 5c8530826b78ad74dab59ab1289a2365,
+    type: 3}
+  m_PrefabInstance: {fileID: 6970588515107107968}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31e40ecd74be3f4e8e23ceb4a44f3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1747660387
 GameObject:
   m_ObjectHideFlags: 0
@@ -1670,7 +1681,7 @@ RectTransform:
   m_Children:
   - {fileID: 58024730}
   m_Father: {fileID: 733319458}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2189,7 +2200,7 @@ PrefabInstance:
     - target: {fileID: 281882899976431578, guid: 1c882870537b69841978b124453193ef,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 281882899976431578, guid: 1c882870537b69841978b124453193ef,
         type: 3}
