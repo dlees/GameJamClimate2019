@@ -5,11 +5,13 @@ using UnityEngine;
 public class WaterProjectileHit : MonoBehaviour {
 
     public FloatReference healthVariableToDecrement;
+    public float probabilityToBeHurt = 0.05f;
     public float amountToLose;
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.tag == "WaterProjectile") {
-            healthVariableToDecrement.Value -= amountToLose;
+            if (Random.Range(0f,1f) < probabilityToBeHurt)
+                healthVariableToDecrement.Value -= amountToLose;
         }
     }
 }

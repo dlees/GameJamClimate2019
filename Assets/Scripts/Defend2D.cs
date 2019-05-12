@@ -8,13 +8,13 @@ public class Defend2D : MonoBehaviour
     public GameObject target;
     public GameObject turret;
     public GameObject projectile;
-    public float minDistance = 1f;
-    public float maxDistance = 50f;
-    public float turnSpeed = 2f;
-    public float minAngleDiffToFire = 1f;
-    public float ProjectileFireVelocity = 10f;
-
-
+    public float minDistance = 0.75f;
+    public float maxDistance = 9f;
+    public float turnSpeed = 7f;
+    public float minAngleDiffToFire = 3f;
+    public float projectileFireVelocity = 100f;
+    public float timeBetweenProjectiles = 0.05f;
+    public float timeFromLastFire = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -28,15 +28,15 @@ public class Defend2D : MonoBehaviour
 
         if (TargetWithinDistance())
         {
-            Debug.Log("Turret: Target with distance");
             RotateTurretToTarget();
             Fire();
         }
     }
 
     void Fire()
-    {   
-        if (!FacingTarget())
+    {
+        timeFromLastFire += Time.deltaTime;
+        if (!FacingTarget() || timeFromLastFire < timeBetweenProjectiles)
         {
             return;
         }
@@ -44,10 +44,11 @@ public class Defend2D : MonoBehaviour
         GameObject p = Instantiate(projectile, turret.transform.position, turret.transform.rotation);
         float scale = Mathf.Lerp(0f, 1, DistanceToTarget() / maxDistance);
         Rigidbody2D rb = p.GetComponent<Rigidbody2D>();
-        rb.AddRelativeForce(Vector2.up * ProjectileFireVelocity);
+        rb.AddRelativeForce(Vector2.up * projectileFireVelocity);
         rb.velocity = turret.GetComponentInParent<Rigidbody2D>().velocity;
 
         Destroy(p, 4* scale);
+        timeFromLastFire = 0f;
     }
 
     void RotateTurretToTarget()
@@ -83,8 +84,6 @@ public class Defend2D : MonoBehaviour
     bool FacingTarget()
     {
         float relativeAngle = Vector3.Angle(turret.transform.up, target.transform.position - turret.transform.position);
-        Debug.Log("Turret: forward " +turret.transform.up);
-        Debug.Log("Turret: Relative Angle to Target: " + relativeAngle);
-        return (relativeAngle < minAngleDiffToFire);
+        return relativeAngle < minAngleDiffToFire;
     }
 }

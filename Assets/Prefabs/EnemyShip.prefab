@@ -500,7 +500,9 @@ MonoBehaviour:
   maxDistance: 9
   turnSpeed: 7
   minAngleDiffToFire: 3
-  ProjectileFireVelocity: 100
+  projectileFireVelocity: 100
+  timeBetweenProjectiles: 0.05
+  timeFromLastFire: 0
 --- !u!114 &1561872971
 MonoBehaviour:
   m_ObjectHideFlags: 0
