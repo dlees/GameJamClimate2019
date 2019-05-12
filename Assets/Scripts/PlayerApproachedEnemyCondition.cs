@@ -10,6 +10,9 @@ public class PlayerApproachedEnemyCondition : Condition
     public FloatReference timeInCollider;
     public FloatReference timeRequiredToBoard;
 
+    public GameEvent bossKilledEvent;
+
+
     public override bool isConditionSatisfied() {
         return timeInCollider.Value > timeRequiredToBoard.Value;
     }
@@ -34,6 +37,9 @@ public class PlayerApproachedEnemyCondition : Condition
         }
         if (timeInCollider.Value > timeRequiredToBoard) {
             if (Input.GetKeyUp(KeyCode.Space)) {
+                if (enemyApproached.name.Equals("BossShip")) {
+                    bossKilledEvent.Raise();
+                }
                 Destroy(enemyApproached);
             }
         }
