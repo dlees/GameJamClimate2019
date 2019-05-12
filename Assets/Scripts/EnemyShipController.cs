@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class EnemyShipController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool runAway;
+    public int numWaterJets;
+    public bool towardOrAwayPlayer;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Start() {
+
     }
 }

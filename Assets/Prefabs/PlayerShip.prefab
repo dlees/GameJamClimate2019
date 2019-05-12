@@ -341,7 +341,7 @@ MonoBehaviour:
   body: {fileID: 6970588516592878799}
   accel: 1
   turnSpeed: 0.5
-  maxSpeed: 4.25
+  maxSpeed: 4.5
 --- !u!50 &6970588516592878799
 Rigidbody2D:
   serializedVersion: 4
