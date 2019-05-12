@@ -10,7 +10,7 @@ public class Defend2D : MonoBehaviour
     public GameObject projectile;
     public float minDistance = 1f;
     public float maxDistance = 50f;
-    public float turnSpeed = 0.1f;
+    public float turnSpeed = 2f;
     public float minAngleDiffToFire = 1f;
     public float ProjectileFireVelocity = 10f;
 
@@ -42,9 +42,12 @@ public class Defend2D : MonoBehaviour
         }
 
         GameObject p = Instantiate(projectile, turret.transform.position, turret.transform.rotation);
-        float scale = Mathf.Lerp(0f, turnSpeed, DistanceToTarget() / maxDistance);
-        p.GetComponent<Rigidbody2D>().AddRelativeForce(Vector2.up * ProjectileFireVelocity * scale);
-        Destroy(p, 1);
+        float scale = Mathf.Lerp(0f, 1, DistanceToTarget() / maxDistance);
+        Rigidbody2D rb = p.GetComponent<Rigidbody2D>();
+        rb.AddRelativeForce(Vector2.up * ProjectileFireVelocity);
+        rb.velocity = turret.GetComponentInParent<Rigidbody2D>().velocity;
+
+        Destroy(p, 4* scale);
     }
 
     void RotateTurretToTarget()
@@ -56,7 +59,7 @@ public class Defend2D : MonoBehaviour
     private Quaternion getNewRotation(float scale)
     {
         Quaternion q = Quaternion.AngleAxis(angleToTarget(), Vector3.forward);
-        return Quaternion.Slerp(transform.rotation, q, scale);
+        return Quaternion.Slerp(turret.transform.rotation, q, Mathf.Clamp01(scale*Time.deltaTime));
 
     }
 
@@ -69,7 +72,7 @@ public class Defend2D : MonoBehaviour
     bool TargetWithinDistance()
     {
         float distance = DistanceToTarget();
-        return distance >= minDistance || distance <= maxDistance;
+        return distance >= minDistance && distance <= maxDistance;
 
     }
     float DistanceToTarget()
