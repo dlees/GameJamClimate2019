@@ -134,7 +134,7 @@ MonoBehaviour:
   timerRangeValue: {fileID: 0}
   secsToWait:
     floatType: 0
-    ConstantValue: 0.15
+    ConstantValue: 0.2
     Variable: {fileID: 0}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
@@ -253,6 +253,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1610545907}
   - component: {fileID: 938234131307722183}
+  - component: {fileID: 537833821}
+  - component: {fileID: 537833822}
+  - component: {fileID: 537833823}
   m_Layer: 0
   m_Name: PlayerCrewLeft
   m_TagString: Untagged
@@ -288,14 +291,89 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   floatRef:
     floatType: 0
-    ConstantValue: 60
+    ConstantValue: 5
     Variable: {fileID: 0}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
   identifier: 
   min: 0
-  max: 60
+  max: 5
   listeners: []
+--- !u!114 &537833821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610545906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e9e2c86c3d39848855f7eabb589e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transformToUse: {fileID: 6970588516592878802}
+--- !u!114 &537833822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610545906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849fd6647f3999d4cb0c60dbf5e96a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  template: {fileID: 3516153199639317442, guid: 052f14619b9381345aabd6e34247bec3,
+    type: 3}
+  parentOverride: {fileID: 0}
+  overrideTransform: 1
+  positionOverride:
+    chosenType: 2
+    ConstantValue: {x: 0, y: 0, z: 0}
+    scriptableObjectVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 537833821}
+  rotationOverride:
+    chosenType: 0
+    ConstantValue: {x: 0, y: 0, z: 0, w: 0}
+    scriptableObjectVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 0}
+--- !u!114 &537833823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610545906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 028c0aabf11b34029b69ff76b7069c15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value:
+    floatType: 2
+    ConstantValue: 0
+    Variable: {fileID: 0}
+    rangeValue: {fileID: 938234131307722183}
+    floatRef: {fileID: 0}
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 537833822}
+        m_MethodName: createObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  previousValue: 5
+  shouldTrackdecrement: 1
 --- !u!1 &6970588516592878798
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,6 +591,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: simpleSmallShake
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

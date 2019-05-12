@@ -2271,7 +2271,8 @@ PrefabInstance:
       propertyPath: compared.rangeValue
       value: 
       objectReference: {fileID: 3190311212612464647}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3204549334598932485, guid: 1c882870537b69841978b124453193ef, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1c882870537b69841978b124453193ef, type: 3}
 --- !u!114 &3190311212612464647 stripped
 MonoBehaviour:

@@ -8,16 +8,23 @@ public class FloatReferenceIncrementNotifier : MonoBehaviour {
 	public FloatReference value;
 	public UnityEvent unityEvent;
     public float previousValue = 1;
+    public bool shouldTrackdecrement = false;
 
     void Start() {
         previousValue = value.Value;
     }
 
     void Update() {
-        if (value.Value > previousValue) {
-			unityEvent.Invoke ();
-            previousValue = value.Value;
+        if (shouldTrackdecrement) {
+            if (value.Value < previousValue) {
+                unityEvent.Invoke();
+                previousValue = value.Value;
+            }
+        } else {
+            if (value.Value > previousValue) {
+                unityEvent.Invoke();
+                previousValue = value.Value;
+            }
         }
     }
-
 }
