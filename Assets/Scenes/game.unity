@@ -378,6 +378,18 @@ PrefabInstance:
       objectReference: {fileID: 1555979823241264885}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
+--- !u!114 &413447500 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1162029220, guid: a1d9826a70b7be54293c768d6f9178aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 8665981891373807267}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31e40ecd74be3f4e8e23ceb4a44f3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &461918996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1130,6 +1142,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2036971935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8665981891719212682, guid: a1d9826a70b7be54293c768d6f9178aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 8665981891373807267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2036971936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036971935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d6dea1294c1524cbf1c3ccd5d10732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition:
+    chosenType: 0
+    ConstantValue: 1
+    scriptableObjectVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 0}
+    callback:
+      _target: {fileID: 0}
+      _methodName: 
+      _args: []
+      _dynamic: 0
+      _typeName: BoolCallback, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      dirty: 0
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 413447500}
+        m_MethodName: increment
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -120
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &2101312884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7598111512287021229, guid: c9764eabccfa1194cad57e677c6141eb,
@@ -1813,6 +1872,16 @@ PrefabInstance:
       propertyPath: compared.rangeValue
       value: 
       objectReference: {fileID: 1610545908}
+    - target: {fileID: 8665981891335706501, guid: a1d9826a70b7be54293c768d6f9178aa,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8665981891335706501, guid: a1d9826a70b7be54293c768d6f9178aa,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8665981891335706500, guid: a1d9826a70b7be54293c768d6f9178aa,
         type: 3}
       propertyPath: rangedFloat.monoBehaviourVariable
@@ -1828,5 +1897,6 @@ PrefabInstance:
       propertyPath: cur.floatRef
       value: 
       objectReference: {fileID: 6970588515107107969}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1054569787, guid: a1d9826a70b7be54293c768d6f9178aa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a1d9826a70b7be54293c768d6f9178aa, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85997541061484143b32176cd0f24bf8, type: 3}
+  m_Name: HeadlinesAsPriceDecreases
+  m_EditorClassIdentifier: 
+  Items:
+  - 
+  - CLAM Stock is down!
+  - Clean Energy on the Rise as Oil stocks Plummet!
+  - All countries investing in Clean Energy
+  - CO2 Emissions finally leveling off. But, is it too late?
