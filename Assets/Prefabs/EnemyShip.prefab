@@ -160,7 +160,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1353051488
+--- !u!1 &1120556181
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,61 +168,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1353051489}
-  - component: {fileID: 1353051492}
-  - component: {fileID: 1353051491}
-  - component: {fileID: 1353051490}
+  - component: {fileID: 1120556184}
+  - component: {fileID: 1120556183}
+  - component: {fileID: 1120556182}
   m_Layer: 0
-  m_Name: DefendSelfStateController (1)
+  m_Name: SeekPlayerState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &1353051489
+--- !u!4 &1120556184
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353051488}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.533334, z: 0}
-  m_LocalScale: {x: 6.666667, y: 6.666667, z: 1}
+  m_GameObject: {fileID: 1120556181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 122673558}
-  m_RootOrder: 0
+  m_Father: {fileID: 3839381076910042990}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1353051492
+--- !u!114 &1120556183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353051488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ccb22fc008c244738e2523ba7d86c4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  turret: {fileID: 122673557}
-  projectile: {fileID: 9148531879597702067, guid: d0e172fc215ee487b8906e5bd604b142,
-    type: 3}
-  minDistance: 0.75
-  maxDistance: 9
-  turnSpeed: 7
-  minAngleDiffToFire: 3
-  projectileFireVelocity: 100
-  timeBetweenProjectiles: 0.05
-  timeFromLastFire: 0
---- !u!114 &1353051491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353051488}
+  m_GameObject: {fileID: 1120556181}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6d6dea1294c1524cbf1c3ccd5d10732, type: 3}
@@ -268,13 +244,13 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1353051490
+--- !u!114 &1120556182
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353051488}
+  m_GameObject: {fileID: 1120556181}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d15efdd323e543d7809c7a158a7214e, type: 3}
@@ -296,6 +272,60 @@ MonoBehaviour:
   movement: {fileID: 381420145}
   minDistanceToTarget: 1
   shouldMoveAway: 1
+--- !u!1 &1353051488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1353051489}
+  - component: {fileID: 1353051492}
+  m_Layer: 0
+  m_Name: DefendSelfStateController (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1353051489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353051488}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.533334, z: 0}
+  m_LocalScale: {x: 6.666667, y: 6.666667, z: 1}
+  m_Children: []
+  m_Father: {fileID: 122673558}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1353051492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353051488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccb22fc008c244738e2523ba7d86c4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  turret: {fileID: 122673557}
+  projectile: {fileID: 9148531879597702067, guid: d0e172fc215ee487b8906e5bd604b142,
+    type: 3}
+  minDistance: 0.75
+  maxDistance: 9
+  turnSpeed: 7
+  minAngleDiffToFire: 3
+  projectileFireVelocity: 100
+  timeBetweenProjectiles: 0.05
+  timeFromLastFire: 0
 --- !u!1 &2123548974
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,7 +461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a1574cc2a26ce14dba7327882999b6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  body: {fileID: 0}
+  body: {fileID: 9106533000388326362}
 --- !u!1 &1739176347407908072
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,6 +777,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3839381076910042990}
+  - component: {fileID: 1082734544}
   - component: {fileID: 3839381076910042991}
   - component: {fileID: 9106533000388326362}
   - component: {fileID: 5600396324089859062}
@@ -778,9 +809,40 @@ Transform:
   - {fileID: 515469655}
   - {fileID: 122673558}
   - {fileID: 8512471430991553370}
+  - {fileID: 1120556184}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1082734544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839381076910042988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ef94d1b8f8d2c40911844cbff2a82f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementType: away
+  numWaterJets: 1
+  movementSeeker: {fileID: 1120556182}
+  players:
+  - {fileID: 0}
+  turrets:
+  - {fileID: 515469654}
+  - {fileID: 122673557}
+  - {fileID: 1739176347407908072}
+  defenders:
+  - {fileID: 5834972961620669773}
+  - {fileID: 1353051492}
+  - {fileID: 8835247368876314295}
+  cameraObjects:
+    chosenType: 0
+    ConstantValue: []
+    scriptableObjectVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 0}
 --- !u!212 &3839381076910042991
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -909,8 +971,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3839381077191929744}
   - component: {fileID: 5834972961620669773}
-  - component: {fileID: 1561872971}
-  - component: {fileID: 1561872969}
   m_Layer: 0
   m_Name: DefendSelfStateController
   m_TagString: Untagged
@@ -955,86 +1015,6 @@ MonoBehaviour:
   projectileFireVelocity: 100
   timeBetweenProjectiles: 0.05
   timeFromLastFire: 0
---- !u!114 &1561872971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3839381077191929745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d6dea1294c1524cbf1c3ccd5d10732, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition:
-    chosenType: 0
-    ConstantValue: 1
-    scriptableObjectVariable: {fileID: 0}
-    monoBehaviourVariable: {fileID: 0}
-    callback:
-      _target: {fileID: 0}
-      _methodName: 
-      _args: []
-      _dynamic: 0
-      _typeName: BoolCallback, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      dirty: 0
-  unityEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3839381075346281230}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3839381075341287548}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1561872969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3839381077191929745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d15efdd323e543d7809c7a158a7214e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToMove: {fileID: 3839381076910042990}
-  destination: {fileID: 0}
-  unityEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  speed:
-    floatType: 1
-    ConstantValue: 0
-    Variable: {fileID: 11400000, guid: e027ed953195c4d41872832c359ed1f1, type: 2}
-    rangeValue: {fileID: 0}
-    floatRef: {fileID: 0}
-  movement: {fileID: 381420145}
-  minDistanceToTarget: 1
-  shouldMoveAway: 1
 --- !u!1 &3839381077329199107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,6 +1026,7 @@ GameObject:
   - component: {fileID: 3839381077329199106}
   - component: {fileID: 3839381077329199109}
   - component: {fileID: 3839381077329199108}
+  - component: {fileID: 9187121157939157167}
   m_Layer: 0
   m_Name: Add/RemoveSelfFromCamera
   m_TagString: Untagged
@@ -1083,7 +1064,7 @@ MonoBehaviour:
   eventWhenSatisfied:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 9187121157939157167}
         m_MethodName: Add
         m_Mode: 2
         m_Arguments:
@@ -1116,12 +1097,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 4661361280824832860}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1120556181}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   eventWhenUnsatisfied:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 9187121157939157167}
         m_MethodName: Remove
         m_Mode: 2
         m_Arguments:
@@ -1163,7 +1166,29 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4661361280824832860}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1120556181}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -1193,6 +1218,23 @@ MonoBehaviour:
     Variable: {fileID: 0}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
+--- !u!114 &9187121157939157167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839381077329199107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f173edb8b783804bae9373ac6069e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference:
+    chosenType: 2
+    ConstantValue: []
+    scriptableObjectVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 0}
 --- !u!1 &4661361280824832860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,8 +1245,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4665020899646571917}
   - component: {fileID: 8835247368876314295}
-  - component: {fileID: 1683099156858791887}
-  - component: {fileID: 1479975553494511548}
   m_Layer: 0
   m_Name: DefendSelfStateController (1)
   m_TagString: Untagged
@@ -1249,83 +1289,3 @@ MonoBehaviour:
   projectileFireVelocity: 100
   timeBetweenProjectiles: 0.05
   timeFromLastFire: 0
---- !u!114 &1683099156858791887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4661361280824832860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d6dea1294c1524cbf1c3ccd5d10732, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition:
-    chosenType: 0
-    ConstantValue: 1
-    scriptableObjectVariable: {fileID: 0}
-    monoBehaviourVariable: {fileID: 0}
-    callback:
-      _target: {fileID: 0}
-      _methodName: 
-      _args: []
-      _dynamic: 0
-      _typeName: BoolCallback, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      dirty: 0
-  unityEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3839381075346281230}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3839381075341287548}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1479975553494511548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4661361280824832860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d15efdd323e543d7809c7a158a7214e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToMove: {fileID: 3839381076910042990}
-  destination: {fileID: 0}
-  unityEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  speed:
-    floatType: 1
-    ConstantValue: 0
-    Variable: {fileID: 11400000, guid: e027ed953195c4d41872832c359ed1f1, type: 2}
-    rangeValue: {fileID: 0}
-    floatRef: {fileID: 0}
-  movement: {fileID: 381420145}
-  minDistanceToTarget: 1
-  shouldMoveAway: 1
