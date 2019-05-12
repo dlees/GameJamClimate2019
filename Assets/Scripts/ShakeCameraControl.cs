@@ -126,6 +126,10 @@ public class ShakeCameraControl : MonoBehaviour
         DetermineNextShakePosition();
     }
 
+    public void simpleSmallShake(int shakes) {
+        Shake(1f, shakes, 10f);
+    }
+
 
     private void DetermineNextShakePosition()
     {

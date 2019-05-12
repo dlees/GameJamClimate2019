@@ -11,21 +11,23 @@ public class FlashingObject : MonoBehaviour {
 
     public SpriteRenderer sprite;
 
-    bool isFlashing = false;
-
     public void makeSpriteFlashRed() {
-        StartCoroutine(FlashSprite(sprite, .3f, .1f, redColors));
+        chosenColors = redColors;
+        StartCoroutine(FlashRed());
+        Invoke("changeColorToBlue", .6f);
     }
+
+    public void changeColorToBlue() {
+        chosenColors = blueColors;
+    }
+
     public void makeSpriteFlashBlue() {
-        StartCoroutine(FlashSprite(sprite, .3f, .1f, blueColors));
+        StartCoroutine(FlashBlue());
     }
-
-
-
 
     private Color[] redColors = { Color.white, Color.red };
     private Color[] blueColors = { Color.white, Color.cyan, Color.blue };
-
+    private Color[] chosenColors;
 
     public void Awake() {
         // Register the singleton
@@ -33,14 +35,25 @@ public class FlashingObject : MonoBehaviour {
             Debug.LogError("Multiple instances of FlashingObject!");
         }
         Instance = this;
+
+        chosenColors = blueColors;
+}
+
+    IEnumerator FlashRed() {
+        IEnumerator enumerator =  FlashSprite(sprite, .3f, .1f);
+        return enumerator;
+
+    }
+    IEnumerator FlashBlue() {
+        return FlashSprite(sprite, .3f, .1f);
     }
 
-    IEnumerator FlashSprite(SpriteRenderer sprite, float time, float intervalTime, Color[] colors) {
-        isFlashing = true;
+
+    IEnumerator FlashSprite(SpriteRenderer sprite, float time, float intervalTime) {
         float elapsedTime = 0f;
         int index = 0;
         while (elapsedTime < time) {
-            sprite.color = colors[index % 2];
+            sprite.color = chosenColors[index % 2];
 
             elapsedTime += Time.deltaTime;
             index++;
@@ -48,9 +61,8 @@ public class FlashingObject : MonoBehaviour {
         }
 
         sprite.color = Color.white;
-        isFlashing = false;
 
     }
-    
+
 
 }
