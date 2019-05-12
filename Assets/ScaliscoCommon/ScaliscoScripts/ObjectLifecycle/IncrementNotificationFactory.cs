@@ -60,7 +60,7 @@ public class IncrementNotificationFactory : MonoBehaviour , Copiable {
         if (destination != null) {
             Seeker seeker = (Seeker)newObject.GetComponent<Seeker>();
             if (seeker != null) {
-                seeker.changeDestination(destination);
+                seeker.changeDestination(destination.transform);
             }
         }
 

@@ -14,8 +14,13 @@ public class EnemyShipController : MonoBehaviour
     public Defend2D[] defenders;
 
     public TransformListReference cameraObjects;
+    public TransformListReference idlePath;
+
+    public TransformListReferenceBehaviour pathReferenceBehaviour;
 
     void Start() {
+        pathReferenceBehaviour.reference = idlePath;
+
         players = GameObject.FindGameObjectsWithTag("Player");
         switch (movementType) {
             case "stopped":
@@ -23,18 +28,18 @@ public class EnemyShipController : MonoBehaviour
                 break; 
 
             case "away":
-                movementSeeker.destination = players[0];
+                movementSeeker.destinationTransform = players[0].transform;
                 movementSeeker.shouldMoveAway = true;
                 break;
 
             case "toward":
-                movementSeeker.destination = players[0];
+                movementSeeker.destinationTransform = players[0].transform;
                 movementSeeker.shouldMoveAway = false;
 
                 break;
 
             default: 
-                movementSeeker.destination = players[0];
+                movementSeeker.destinationTransform = players[0].transform;
                 movementSeeker.shouldMoveAway = true;
                 break;
         }

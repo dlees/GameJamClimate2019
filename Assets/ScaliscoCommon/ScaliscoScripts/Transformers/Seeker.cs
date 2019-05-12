@@ -9,7 +9,9 @@ using UnityEngine.Events;
  * */
 public class Seeker : MonoBehaviour {
     public Transform objectToMove = null;
-    public GameObject destination;
+
+    public Transform destinationTransform;
+
     public UnityEvent unityEvent;
     public FloatReference speed;
     public RigidbodyForwardMovement movement;
@@ -24,7 +26,7 @@ public class Seeker : MonoBehaviour {
     }
 
     void Update() {
-        Vector3 target = shouldMoveAway ? getAwayFromTarget(destination.transform.position) : destination.transform.position;
+        Vector3 target = shouldMoveAway ? getAwayFromTarget(destinationTransform.position) : destinationTransform.position;
         movement.MoveTowards(speed, target, minDistanceToTarget);
 
 
@@ -37,8 +39,8 @@ public class Seeker : MonoBehaviour {
         return objectToMove.position + (objectToMove.position - oppositeTarget).normalized * 1000;
     }
 
-    public void changeDestination(GameObject newDestination) {
-        destination = newDestination;
+    public void changeDestination(Transform newDestination) {
+        destinationTransform = newDestination;
     }
     
 }
