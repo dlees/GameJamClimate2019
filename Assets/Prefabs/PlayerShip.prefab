@@ -58,7 +58,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1610545907}
-  - component: {fileID: 1610545908}
+  - component: {fileID: 938234131307722183}
   m_Layer: 0
   m_Name: PlayerCrewLeft
   m_TagString: Untagged
@@ -80,7 +80,7 @@ Transform:
   m_Father: {fileID: 6970588516592878802}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1610545908
+--- !u!114 &938234131307722183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,7 +89,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1610545906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a31e40ecd74be3f4e8e23ceb4a44f3a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e3d683b5843c4390976c3de43f67400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   floatRef:
@@ -98,6 +98,10 @@ MonoBehaviour:
     Variable: {fileID: 0}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
+  identifier: 
+  min: 0
+  max: 5
+  listeners: []
 --- !u!1 &6970588516592878798
 GameObject:
   m_ObjectHideFlags: 0
