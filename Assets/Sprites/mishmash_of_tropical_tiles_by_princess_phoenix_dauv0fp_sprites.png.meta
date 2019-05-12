@@ -209,6 +209,60 @@ TextureImporter:
   - first:
       213: 508195002517745817
     second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_68
+  - first:
+      213: -2071789641039101922
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_69
+  - first:
+      213: -8557863225811122396
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_70
+  - first:
+      213: 774544681390475447
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_71
+  - first:
+      213: 7359812863234098401
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_72
+  - first:
+      213: 6399031828408632285
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_73
+  - first:
+      213: 3194044006528107284
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_74
+  - first:
+      213: -5573688614168150642
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_75
+  - first:
+      213: -775038809924424774
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_76
+  - first:
+      213: -8677321142731529772
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_77
+  - first:
+      213: 7103192243860700132
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_78
+  - first:
+      213: -3079463267186339787
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_79
+  - first:
+      213: -5084966289821819368
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_80
+  - first:
+      213: 6190009542714031131
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_81
+  - first:
+      213: 3756788364391730539
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_82
+  - first:
+      213: -1612660426561956
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_83
+  - first:
+      213: 3927637712729237967
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_84
+  - first:
+      213: -3693396380123391053
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_85
+  - first:
+      213: -6343078016905641703
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_86
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -254,7 +308,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -337,7 +391,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 83
-        y: 833
+        y: 834
         width: 41
         height: 41
       alignment: 0
@@ -421,9 +475,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 50
-        y: 755
+        y: 754
         width: 28
-        height: 42
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,7 +497,7 @@ TextureImporter:
         serializedVersion: 2
         x: 80
         y: 749
-        width: 32
+        width: 16
         height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -464,8 +518,8 @@ TextureImporter:
         serializedVersion: 2
         x: 176
         y: 750
-        width: 48
-        height: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,7 +539,7 @@ TextureImporter:
         serializedVersion: 2
         x: 112
         y: 686
-        width: 32
+        width: 16
         height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1013,7 +1067,7 @@ TextureImporter:
         width: 144
         height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1031,10 +1085,10 @@ TextureImporter:
         serializedVersion: 2
         x: 80
         y: 798
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1052,10 +1106,10 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 798
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1073,10 +1127,10 @@ TextureImporter:
         serializedVersion: 2
         x: 176
         y: 798
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1097,7 +1151,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1118,7 +1172,7 @@ TextureImporter:
         width: 11
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1139,7 +1193,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1157,10 +1211,10 @@ TextureImporter:
         serializedVersion: 2
         x: 112
         y: 749
-        width: 32
-        height: 49
+        width: 16
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1181,7 +1235,7 @@ TextureImporter:
         width: 32
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1199,10 +1253,10 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 718
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1223,7 +1277,7 @@ TextureImporter:
         width: 32
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1244,7 +1298,7 @@ TextureImporter:
         width: 32
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1265,7 +1319,7 @@ TextureImporter:
         width: 48
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1286,7 +1340,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1307,7 +1361,7 @@ TextureImporter:
         width: 14
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1328,7 +1382,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1349,7 +1403,7 @@ TextureImporter:
         width: 24
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1370,7 +1424,7 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1391,7 +1445,7 @@ TextureImporter:
         width: 32
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1412,7 +1466,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1433,7 +1487,7 @@ TextureImporter:
         width: 32
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1454,7 +1508,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1475,7 +1529,7 @@ TextureImporter:
         width: 32
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1496,7 +1550,7 @@ TextureImporter:
         width: 32
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1517,7 +1571,7 @@ TextureImporter:
         width: 30
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1538,7 +1592,7 @@ TextureImporter:
         width: 16
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1559,7 +1613,7 @@ TextureImporter:
         width: 13
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1580,7 +1634,7 @@ TextureImporter:
         width: 14
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1601,7 +1655,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1622,7 +1676,7 @@ TextureImporter:
         width: 33
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1643,7 +1697,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1664,7 +1718,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1685,7 +1739,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1706,7 +1760,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1727,7 +1781,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1735,6 +1789,384 @@ TextureImporter:
       bones: []
       spriteID: e7d8bf2c6c4394fda9861bc3c6f07505
       internalID: 508195002517745817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_69
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 750
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c6ee55c10264cf2bc2653b4124f004
+      internalID: -2071789641039101922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_70
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 774
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9904035bc0c4d9ea3f8c8a935554ce
+      internalID: -8557863225811122396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 774
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679eae8453547447285bf25e3af1a312
+      internalID: 774544681390475447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c854c463c835f4545b46a2d00ec9ecaa
+      internalID: 7359812863234098401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 798
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddf6e585f05b439c89393968065af7c
+      internalID: 6399031828408632285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba48988ed179b4d39b968621385f42e9
+      internalID: 3194044006528107284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20231005dd9074b5d8b151a8ee392212
+      internalID: -5573688614168150642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 798
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c85c695a7a44d4e97454d37663e725
+      internalID: -775038809924424774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518cc2190d73145fb947843d794ad9a2
+      internalID: -8677321142731529772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f3f3c81b9c54728a37734640a1c2fb
+      internalID: 7103192243860700132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 798
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a660eec9c63241018ad2aef2c9eb6ee
+      internalID: -3079463267186339787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb200ae33203242679adad63c4339bb7
+      internalID: -5084966289821819368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 749
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5810b2a07386470b82cc4c6bf36059c
+      internalID: 6190009542714031131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 750
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30641d4cde9004f909d45d59fc3398e0
+      internalID: 3756788364391730539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_83
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 686
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344732691f9e64302920a77448ebab32
+      internalID: -1612660426561956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_84
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 734
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6cac286af0f49d49d70a40e5e5e2c9
+      internalID: 3927637712729237967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_85
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 718
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5341c78bdc84b0c83c39c08a20a175
+      internalID: -3693396380123391053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 734
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d325ea0e4e5cf4f2bb5d5f0e396f7083
+      internalID: -6343078016905641703
       vertices: []
       indices: 
       edges: []

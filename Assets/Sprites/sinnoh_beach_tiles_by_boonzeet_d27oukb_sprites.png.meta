@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 4e7e2bf0805d1495ea6481ff0212a8a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8308613319841311244
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_0
+  - first:
+      213: 6237558006625310267
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_1
+  - first:
+      213: -5697714600036828947
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_2
+  - first:
+      213: -5527302080735322597
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_3
+  - first:
+      213: 6007732055325575935
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_4
+  - first:
+      213: -6396751350504843884
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_5
+  - first:
+      213: -1841937026059220973
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_6
+  - first:
+      213: -1921646974768966032
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_7
+  - first:
+      213: 8141619382240243867
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_8
+  - first:
+      213: 1062435732496238254
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_9
+  - first:
+      213: 8330764191305460408
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_10
+  - first:
+      213: 1720822691093115163
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_11
+  - first:
+      213: 4695090227417210275
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_12
+  - first:
+      213: -8315768427958020823
+    second: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0d1feb44cd5485cbb6af06cf5e7499
+      internalID: -8308613319841311244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16d81c7defa84402891fef1bcf3bbbf
+      internalID: 6237558006625310267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39153e14474494edb8a59007ec07e3e2
+      internalID: -5697714600036828947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ef37aff9582484fba1bd79eaf1b02e
+      internalID: -5527302080735322597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc2f09a6245b4c5abfa64dc9b16e698
+      internalID: 6007732055325575935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c604bf2aad3ea439c800834e80d59535
+      internalID: -6396751350504843884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04453f46a577440da46af8335a84167
+      internalID: -1841937026059220973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817afc1f44ff643f09be83de0fba6e4c
+      internalID: -1921646974768966032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3e7e7350a65432881d407e270c6324
+      internalID: 8141619382240243867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a3b8733e79a40f28ef4ca38689b77e
+      internalID: 1062435732496238254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d77f4ca3534041a4b23c593be035a18
+      internalID: 8330764191305460408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf14ae6f0da84ff89e58f0442b687f3
+      internalID: 1720822691093115163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0c22889fe2e4a59b57a71112148931
+      internalID: 4695090227417210275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinnoh_beach_tiles_by_boonzeet_d27oukb_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd0107f650344d4a9c61c5fd25f4284
+      internalID: -8315768427958020823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4b5ed735f877c4bcaa1eac056e3f417a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
