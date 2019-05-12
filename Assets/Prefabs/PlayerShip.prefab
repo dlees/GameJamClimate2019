@@ -1,5 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &42214412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42214413}
+  - component: {fileID: 42214414}
+  m_Layer: 0
+  m_Name: FlashOnHit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42214413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42214412}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6970588516592878802}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42214414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42214412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d254eac3bd1a34da0270f0016527da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 6970588516592878801}
 --- !u!1 &374921294
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,13 +274,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   floatRef:
     floatType: 0
-    ConstantValue: 5
+    ConstantValue: 60
     Variable: {fileID: 0}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
   identifier: 
   min: 0
-  max: 5
+  max: 60
   listeners: []
 --- !u!1 &6970588516592878798
 GameObject:
@@ -275,6 +319,7 @@ Transform:
   - {fileID: 918714171}
   - {fileID: 1610545907}
   - {fileID: 374921295}
+  - {fileID: 42214413}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -426,6 +471,38 @@ MonoBehaviour:
   timeBetweenProjectiles: 0.05
   timeFromLastHit: 0
   amountToLose: 1
+  eventOnHit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 42214414}
+        m_MethodName: makeSpriteFlashBlue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  eventOnDamage:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 42214414}
+        m_MethodName: makeSpriteFlashRed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1018526454
 MonoBehaviour:
   m_ObjectHideFlags: 0
