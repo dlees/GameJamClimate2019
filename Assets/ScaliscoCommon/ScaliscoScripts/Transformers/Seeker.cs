@@ -19,6 +19,10 @@ public class Seeker : MonoBehaviour {
 
     public bool shouldMoveAway = false;
 
+    public FrontCollisionAvoidance frontLeftCollisionAvoidance;
+    public FrontCollisionAvoidance frontRightCollisionAvoidance;
+    Vector3 target;
+
     void Start() {
         if (objectToMove == null) {
             objectToMove = this.gameObject.transform;
@@ -26,7 +30,13 @@ public class Seeker : MonoBehaviour {
     }
 
     void Update() {
-        Vector3 target = shouldMoveAway ? getAwayFromTarget(destinationTransform.position) : destinationTransform.position;
+        if (!frontLeftCollisionAvoidance.shouldEvade && !frontRightCollisionAvoidance)
+            target = shouldMoveAway ? getAwayFromTarget(destinationTransform.position) : destinationTransform.position;
+        else if (frontLeftCollisionAvoidance)
+            target = objectToMove.position + objectToMove.right;
+        else
+            target = objectToMove.position - objectToMove.right;
+
         movement.MoveTowards(speed, target, minDistanceToTarget);
 
 
