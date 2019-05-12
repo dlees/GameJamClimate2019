@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85997541061484143b32176cd0f24bf8, type: 3}
+  m_Name: Tutorial Text
+  m_EditorClassIdentifier: 
+  Items:
+  - Capture oil tankers to decrease oil stock price so people invest in clean energy.
+  - Ride next to tankers to board them without hitting them too hard.
