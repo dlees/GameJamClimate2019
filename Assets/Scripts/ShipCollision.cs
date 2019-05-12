@@ -32,7 +32,7 @@ public class ShipCollision : MonoBehaviour
             {
                 // TODO: add other ship explosion
             }
-            shaker.Shake(relativeSpeed, 5, 10);
+            shaker.Shake(relativeSpeed/2, 5, 5);
         }
     }
 }
