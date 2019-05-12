@@ -10,6 +10,8 @@ public class ShipCollision : MonoBehaviour
 
     Rigidbody2D body;
 
+    public ShakeCameraControl shaker;
+
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -30,6 +32,7 @@ public class ShipCollision : MonoBehaviour
             {
                 // TODO: add other ship explosion
             }
+            shaker.Shake(relativeSpeed, 5, 10);
         }
     }
 }
