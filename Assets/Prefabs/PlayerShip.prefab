@@ -54,6 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374921295}
   - component: {fileID: 374921298}
+  - component: {fileID: 7213238608839533589}
   - component: {fileID: 374921297}
   - component: {fileID: 374921296}
   - component: {fileID: 374921300}
@@ -101,10 +102,23 @@ MonoBehaviour:
     scriptableObjectVariable: {fileID: 0}
     monoBehaviourVariable: {fileID: 374921296}
   rotationOverride:
-    chosenType: 0
+    chosenType: 2
     ConstantValue: {x: 0, y: 0, z: 0, w: 0}
     scriptableObjectVariable: {fileID: 0}
-    monoBehaviourVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 7213238608839533589}
+--- !u!114 &7213238608839533589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374921294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42e62b6bb6a9104db28361ce00e1131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tranform: {fileID: 6970588516592878802}
 --- !u!114 &374921297
 MonoBehaviour:
   m_ObjectHideFlags: 0

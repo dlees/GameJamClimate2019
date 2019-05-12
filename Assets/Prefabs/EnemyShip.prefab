@@ -524,6 +524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2123548975}
   - component: {fileID: 2123548980}
+  - component: {fileID: 7941031120430106534}
   - component: {fileID: 2123548979}
   - component: {fileID: 2123548978}
   - component: {fileID: 2123548977}
@@ -561,7 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 849fd6647f3999d4cb0c60dbf5e96a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  template: {fileID: 1155628834478337743, guid: 3bfcb99f256f4f24b8544bc153c86af3,
+  template: {fileID: 7793909031673588700, guid: ea40aa29be877554c89155199ed83fce,
     type: 3}
   parentOverride: {fileID: 0}
   overrideTransform: 1
@@ -571,10 +572,23 @@ MonoBehaviour:
     scriptableObjectVariable: {fileID: 0}
     monoBehaviourVariable: {fileID: 2123548978}
   rotationOverride:
-    chosenType: 0
+    chosenType: 2
     ConstantValue: {x: 0, y: 0, z: 0, w: 0}
     scriptableObjectVariable: {fileID: 0}
-    monoBehaviourVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 7941031120430106534}
+--- !u!114 &7941031120430106534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123548974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42e62b6bb6a9104db28361ce00e1131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tranform: {fileID: 3839381076910042990}
 --- !u!114 &2123548979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -590,7 +604,7 @@ MonoBehaviour:
   timerRangeValue: {fileID: 0}
   secsToWait:
     floatType: 0
-    ConstantValue: 0.15
+    ConstantValue: 0.3
     Variable: {fileID: 0}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
