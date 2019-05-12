@@ -8,22 +8,21 @@ public class ShipCollision : MonoBehaviour
     public float collisionSpeedLower;
     public float collisionSpeedHigher;
 
-    Rigidbody2D body;
+    //Rigidbody2D body;
 
     public ShakeCameraControl shaker;
 
     private void Start()
     {
-        body = GetComponent<Rigidbody2D>();
+        //body = GetComponent<Rigidbody2D>();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            float relativeSpeed = Vector2.SqrMagnitude(body.velocity -
-                other.GetComponent<Rigidbody2D>().velocity);
-            Debug.Log("Colided with other at speed: " + relativeSpeed);
+            float relativeSpeed = other.relativeVelocity.magnitude;
+            Debug.Log("Relative speed:" + relativeSpeed);
             if (relativeSpeed > collisionSpeedLower) {
                 healthVariableToDecrement.Value = 0;
                 // TODO: add small ship explosion

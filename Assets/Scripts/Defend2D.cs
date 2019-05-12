@@ -33,7 +33,7 @@ public class Defend2D : MonoBehaviour
             Fire();
             
         }
-        else if (waterStream.isPlaying && timeFromLastFire > 4)
+        else if (waterStream.isPlaying && timeFromLastFire > 5)
             waterStream.Stop();
     }
 
@@ -53,7 +53,7 @@ public class Defend2D : MonoBehaviour
         rb.AddRelativeForce(Vector2.up * projectileFireVelocity);
         rb.velocity = turret.GetComponentInParent<Rigidbody2D>().velocity;
 
-        Destroy(p, 4* scale);
+        Destroy(p, 5* scale);
         timeFromLastFire = 0f;
     }
 
