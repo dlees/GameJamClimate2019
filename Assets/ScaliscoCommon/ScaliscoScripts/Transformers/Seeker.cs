@@ -34,7 +34,7 @@ public class Seeker : MonoBehaviour {
     }
 
     private Vector3 getAwayFromTarget(Vector3 oppositeTarget) {
-        return 2 * objectToMove.position - oppositeTarget;
+        return objectToMove.position + (objectToMove.position - oppositeTarget).normalized * 1000;
     }
 
     public void changeDestination(GameObject newDestination) {
