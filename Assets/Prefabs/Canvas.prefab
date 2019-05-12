@@ -1,5 +1,54 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1162029219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1162029221}
+  - component: {fileID: 1162029220}
+  m_Layer: 0
+  m_Name: EnemyStock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1162029221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162029219}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -479, y: -469, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8665981890730665857}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1162029220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162029219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31e40ecd74be3f4e8e23ceb4a44f3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatRef:
+    floatType: 0
+    ConstantValue: 0
+    Variable: {fileID: 0}
+    rangeValue: {fileID: 0}
+    floatRef: {fileID: 0}
 --- !u!1 &8665981890730665917
 GameObject:
   m_ObjectHideFlags: 0
@@ -36,6 +85,7 @@ RectTransform:
   - {fileID: 8665981892254522636}
   - {fileID: 3372081236903607975}
   - {fileID: 8665981891719212681}
+  - {fileID: 1162029221}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -917,6 +967,7 @@ GameObject:
   - component: {fileID: 8665981891719212687}
   - component: {fileID: 8665981891719212680}
   - component: {fileID: 8665981891719212686}
+  - component: {fileID: 1054569787}
   m_Layer: 5
   m_Name: BoardedSuccesful
   m_TagString: Untagged
@@ -1014,6 +1065,47 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1054569787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8665981891719212682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0654d42bffaba0a4789d4e94d4eaea9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition:
+    chosenType: 0
+    ConstantValue: 1
+    scriptableObjectVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 0}
+    callback:
+      _target: {fileID: 0}
+      _methodName: 
+      _args: []
+      _dynamic: 0
+      _typeName: BoolCallback, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      dirty: 0
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1162029220}
+        m_MethodName: increment
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -100.4
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -2169,21 +2261,6 @@ PrefabInstance:
       propertyPath: cur.floatType
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 100191804909201780, guid: 1c882870537b69841978b124453193ef,
-        type: 3}
-      propertyPath: cur.floatRef
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4432104946604501520, guid: 1c882870537b69841978b124453193ef,
-        type: 3}
-      propertyPath: compared.Variable
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4432104946604501520, guid: 1c882870537b69841978b124453193ef,
-        type: 3}
-      propertyPath: compared.floatRef
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4432104946604501520, guid: 1c882870537b69841978b124453193ef,
         type: 3}
       propertyPath: compared.floatType
@@ -2194,21 +2271,8 @@ PrefabInstance:
       propertyPath: compared.rangeValue
       value: 
       objectReference: {fileID: 3190311212612464647}
-    m_RemovedComponents:
-    - {fileID: 3204549334598932485, guid: 1c882870537b69841978b124453193ef, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c882870537b69841978b124453193ef, type: 3}
---- !u!1 &3302551050952439615 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 67692168787062338, guid: 1c882870537b69841978b124453193ef,
-    type: 3}
-  m_PrefabInstance: {fileID: 3253139371955329405}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &3372081236903607975 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 281882899976431578, guid: 1c882870537b69841978b124453193ef,
-    type: 3}
-  m_PrefabInstance: {fileID: 3253139371955329405}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3190311212612464647 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 99987529210145146, guid: 1c882870537b69841978b124453193ef,
@@ -2221,3 +2285,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3d683b5843c4390976c3de43f67400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &3372081236903607975 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 281882899976431578, guid: 1c882870537b69841978b124453193ef,
+    type: 3}
+  m_PrefabInstance: {fileID: 3253139371955329405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3302551050952439615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 67692168787062338, guid: 1c882870537b69841978b124453193ef,
+    type: 3}
+  m_PrefabInstance: {fileID: 3253139371955329405}
+  m_PrefabAsset: {fileID: 0}
