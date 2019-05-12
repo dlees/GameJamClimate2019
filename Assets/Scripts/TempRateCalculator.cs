@@ -14,7 +14,7 @@ public class TempRateCalculator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tempRateResult.Value = initialIncreasePerMin / 60 * oilPrice.Value / 980;
-        temp.Value += tempRateResult.Value * Time.deltaTime;
+        tempRateResult.Value = initialIncreasePerMin * oilPrice.Value / 980;
+        temp.Value += tempRateResult.Value/ 60 * Time.deltaTime;
     }
 }
