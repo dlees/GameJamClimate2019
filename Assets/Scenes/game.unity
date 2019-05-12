@@ -2168,6 +2168,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyShip
       objectReference: {fileID: 0}
+    - target: {fileID: 3839381076910042988, guid: 013cae701ea81ff498e9de6869dd4f74,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 3839381076910042990, guid: 013cae701ea81ff498e9de6869dd4f74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2248,14 +2253,6 @@ PrefabInstance:
       propertyPath: destination
       value: 
       objectReference: {fileID: 495475330}
-    - target: {fileID: 1561872970, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 1018526453}
-    - target: {fileID: 1561872970, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1561872969, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
       propertyPath: destination
       value: 

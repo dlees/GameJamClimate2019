@@ -15,13 +15,17 @@ public class PlayerApproachedEnemyCondition : Condition
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        enemyApproached = collision.gameObject;
-        isApproached = true;
+        if (collision.tag == "Enemy") {
+            enemyApproached = collision.gameObject;
+            isApproached = true;
+        }
     }
     private void OnTriggerExit2D(Collider2D collision) {
-        isApproached = false;
-        enemyApproached = null;
-        timeInCollider.Value = 0;
+        if (collision.tag == "Enemy") {
+            isApproached = false;
+            enemyApproached = null;
+            timeInCollider.Value = 0;
+        }
     }
 
      void Update() {
