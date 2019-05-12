@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FloatReferenceFromRigidBodyVelocity : MonoBehaviour
 {
+
     public FloatReference result;
     public Rigidbody2D body;
 

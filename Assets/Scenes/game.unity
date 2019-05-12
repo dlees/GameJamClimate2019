@@ -893,113 +893,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346658857}
   m_CullTransparentMesh: 0
---- !u!1 &374921294
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 374921295}
-  - component: {fileID: 374921298}
-  - component: {fileID: 374921297}
-  - component: {fileID: 374921296}
-  m_Layer: 0
-  m_Name: WakeController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &374921295
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 374921294}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.285, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1754263634}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &374921296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 374921294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68e9e2c86c3d39848855f7eabb589e6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transformToUse: {fileID: 374921295}
---- !u!114 &374921297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 374921294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b70d61d260d50714bba50d75bae3a0c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerRangeValue: {fileID: 0}
-  secsToWait:
-    floatType: 0
-    ConstantValue: 0.25
-    Variable: {fileID: 0}
-    rangeValue: {fileID: 0}
-    floatRef: {fileID: 0}
-  unityEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 374921298}
-        m_MethodName: createObject
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &374921298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 374921294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 849fd6647f3999d4cb0c60dbf5e96a27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  template: {fileID: 1155628834478337743, guid: 3bfcb99f256f4f24b8544bc153c86af3,
-    type: 3}
-  parentOverride: {fileID: 0}
-  overrideTransform: 1
-  positionOverride:
-    chosenType: 2
-    ConstantValue: {x: 0, y: 0, z: 0}
-    scriptableObjectVariable: {fileID: 0}
-    monoBehaviourVariable: {fileID: 374921296}
-  rotationOverride:
-    chosenType: 0
-    ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-    scriptableObjectVariable: {fileID: 0}
-    monoBehaviourVariable: {fileID: 0}
 --- !u!1001 &461918996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1597,6 +1490,12 @@ Transform:
 --- !u!1 &1018526453 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6970588516592878798, guid: 5c8530826b78ad74dab59ab1289a2365,
+    type: 3}
+  m_PrefabInstance: {fileID: 6970588515107107968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1018526457 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 6970588516592878799, guid: 5c8530826b78ad74dab59ab1289a2365,
     type: 3}
   m_PrefabInstance: {fileID: 6970588515107107968}
   m_PrefabAsset: {fileID: 0}
@@ -2925,11 +2824,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyShip
       objectReference: {fileID: 0}
-    - target: {fileID: 3839381076910042988, guid: 013cae701ea81ff498e9de6869dd4f74,
-        type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: 3839381076910042990, guid: 013cae701ea81ff498e9de6869dd4f74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3019,6 +2913,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1018526453}
+    - target: {fileID: 2123548976, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 1018526457}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
 --- !u!1001 &6153810005338468318
