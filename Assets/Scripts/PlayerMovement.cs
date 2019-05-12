@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-    public Rigidbody2D body;    
-
+    public Rigidbody2D body;
+    public AudioSource engineAudioSource;
     private float horizontal;
     private float vertical;
     public float accel;
@@ -35,7 +35,9 @@ public class PlayerMovement : MonoBehaviour {
             {
                 body.velocity = body.velocity.normalized * maxSpeed;
             }
+
         }
+        engineAudioSource.pitch = (0.15f + (body.velocity.magnitude / maxSpeed) * 2.75f);
 
         //if right/left pressed add torque to turn
         if (Mathf.Abs(horizontal) > 0.001f)

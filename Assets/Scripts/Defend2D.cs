@@ -8,6 +8,7 @@ public class Defend2D : MonoBehaviour
     public GameObject target;
     public GameObject turret;
     public GameObject projectile;
+    public AudioSource waterStream;
     public float minDistance = 0.75f;
     public float maxDistance = 9f;
     public float turnSpeed = 7f;
@@ -30,7 +31,10 @@ public class Defend2D : MonoBehaviour
         {
             RotateTurretToTarget();
             Fire();
+            
         }
+        else if (waterStream.isPlaying && timeFromLastFire > 4)
+            waterStream.Stop();
     }
 
     void Fire()
@@ -40,6 +44,8 @@ public class Defend2D : MonoBehaviour
         {
             return;
         }
+        if (!waterStream.isPlaying)
+            waterStream.Play();
 
         GameObject p = Instantiate(projectile, turret.transform.position, turret.transform.rotation);
         float scale = Mathf.Lerp(0f, 1, DistanceToTarget() / maxDistance);
