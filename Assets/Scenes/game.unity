@@ -1813,16 +1813,6 @@ PrefabInstance:
       propertyPath: compared.rangeValue
       value: 
       objectReference: {fileID: 1610545908}
-    - target: {fileID: 8665981891335706501, guid: a1d9826a70b7be54293c768d6f9178aa,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8665981891335706501, guid: a1d9826a70b7be54293c768d6f9178aa,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8665981891335706500, guid: a1d9826a70b7be54293c768d6f9178aa,
         type: 3}
       propertyPath: rangedFloat.monoBehaviourVariable
@@ -1838,9 +1828,5 @@ PrefabInstance:
       propertyPath: cur.floatRef
       value: 
       objectReference: {fileID: 6970588515107107969}
-    - target: {fileID: 1162029220, guid: a1d9826a70b7be54293c768d6f9178aa, type: 3}
-      propertyPath: floatRef.ConstantValue
-      value: 1000
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1d9826a70b7be54293c768d6f9178aa, type: 3}

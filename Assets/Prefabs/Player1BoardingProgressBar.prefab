@@ -68,7 +68,7 @@ MonoBehaviour:
   cur:
     floatType: 1
     ConstantValue: 0
-    Variable: {fileID: 11400000, guid: 4550a264dbb24af4b808622c877aae6f, type: 2}
+    Variable: {fileID: 0}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
 --- !u!114 &7144589705586650961
@@ -113,7 +113,7 @@ MonoBehaviour:
   compared:
     floatType: 1
     ConstantValue: 0
-    Variable: {fileID: 11400000, guid: 4550a264dbb24af4b808622c877aae6f, type: 2}
+    Variable: {fileID: 0}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
   operation: 0
@@ -249,7 +249,6 @@ GameObject:
   - component: {fileID: 2672002817884376549}
   - component: {fileID: 1117372481777563316}
   - component: {fileID: 1504166377423863119}
-  - component: {fileID: 3204549334598932485}
   m_Layer: 5
   m_Name: TextMeshPro Text
   m_TagString: Untagged
@@ -396,22 +395,6 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &3204549334598932485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3493841241242022505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8252eeafbfca44ae799a39544993fc76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: {fileID: 99987529210145146}
-  text: {fileID: 0}
-  tmpText: {fileID: 1504166377423863119}
-  formatString: '{0:F0} / {1:F0}'
 --- !u!1 &6334603166339733524
 GameObject:
   m_ObjectHideFlags: 0
