@@ -39,16 +39,8 @@ public class RigidbodyForwardMovement : MonoBehaviour {
             }
         }
 
-        //float newRotation = angleToTarget() - transform.eulerAngles.z;
-        //Debug.Log("Angle to target " + newRotation +"(" + angleToTarget() + ", " + transform.eulerAngles.z+")");
-        ////if right/left pressed add torque to turn
-        //if (Mathf.Abs(newRotation) > 0.001f)
-        //{
         //scale the amount you can turn based on current velocity so slower turning below max speed
-        float scale = Mathf.Lerp(0f, turnSpeed, body.velocity.magnitude / maxSpeed);
-        //    //axis is opposite what we want by default
-        //    body.AddTorque(-Mathf.Sign(newRotation) * scale);
-        //}
+        float scale = Mathf.Lerp(0.0005f, turnSpeed, body.velocity.magnitude / maxSpeed);
         objectToMove.rotation = getNewRotation(scale, target);
     }
 

@@ -481,7 +481,7 @@ MonoBehaviour:
   projectile: {fileID: 9148531879597702067, guid: d0e172fc215ee487b8906e5bd604b142,
     type: 3}
   waterStream: {fileID: 4093185213771377132}
-  minDistance: 0.75
+  minDistance: 1.8
   maxDistance: 9
   turnSpeed: 7
   minAngleDiffToFire: 3
@@ -681,7 +681,7 @@ MonoBehaviour:
   projectile: {fileID: 9148531879597702067, guid: d0e172fc215ee487b8906e5bd604b142,
     type: 3}
   waterStream: {fileID: 4564354488295076635}
-  minDistance: 0.75
+  minDistance: 1.8
   maxDistance: 9
   turnSpeed: 7
   minAngleDiffToFire: 3
@@ -794,7 +794,7 @@ PrefabInstance:
     - target: {fileID: 3839381076910042988, guid: 013cae701ea81ff498e9de6869dd4f74,
         type: 3}
       propertyPath: m_Name
-      value: BossShip
+      value: BossShip WakeVariant
       objectReference: {fileID: 0}
     - target: {fileID: 3839381076910042990, guid: 013cae701ea81ff498e9de6869dd4f74,
         type: 3}
@@ -856,12 +856,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.872016
       objectReference: {fileID: 0}
-    - target: {fileID: 3839381076910042991, guid: 013cae701ea81ff498e9de6869dd4f74,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: aef3e230cd8d2c1469ec8b3ca9e4dbe2,
-        type: 3}
     - target: {fileID: 3839381077329199109, guid: 013cae701ea81ff498e9de6869dd4f74,
         type: 3}
       propertyPath: eventWhenSatisfied.m_PersistentCalls.m_Calls.Array.size
@@ -982,6 +976,12 @@ PrefabInstance:
       propertyPath: eventWhenUnsatisfied.m_PersistentCalls.m_Calls.Array.data[7].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3839381076910042991, guid: 013cae701ea81ff498e9de6869dd4f74,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aef3e230cd8d2c1469ec8b3ca9e4dbe2,
+        type: 3}
     - target: {fileID: 5600396324089859062, guid: 013cae701ea81ff498e9de6869dd4f74,
         type: 3}
       propertyPath: m_Offset.x
@@ -1001,6 +1001,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.27
       objectReference: {fileID: 0}
+    - target: {fileID: 5834972961620669773, guid: 013cae701ea81ff498e9de6869dd4f74,
+        type: 3}
+      propertyPath: minDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 127285291, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
       propertyPath: m_Offset.x
       value: -0.64
@@ -1008,15 +1013,6 @@ PrefabInstance:
     - target: {fileID: 2123548975, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2123548980, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
-      propertyPath: template
-      value: 
-      objectReference: {fileID: 3674747994879453519, guid: 9b67ec27d0cd0b0498f98e1fc1b9e675,
-        type: 3}
-    - target: {fileID: 2123548979, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
-      propertyPath: secsToWait.ConstantValue
-      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 122673558, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1035,6 +1031,24 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 2123548980, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
+      propertyPath: template
+      value: 
+      objectReference: {fileID: 3674747994879453519, guid: 9b67ec27d0cd0b0498f98e1fc1b9e675,
+        type: 3}
+    - target: {fileID: 2123548979, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
+      propertyPath: secsToWait.ConstantValue
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1353051492, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
+      propertyPath: minDistance
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835247368876314295, guid: 013cae701ea81ff498e9de6869dd4f74,
+        type: 3}
+      propertyPath: minDistance
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 1082734544, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
       propertyPath: turrets.Array.size

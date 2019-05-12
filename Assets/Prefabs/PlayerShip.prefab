@@ -561,9 +561,8 @@ MonoBehaviour:
     Variable: {fileID: 0}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 938234131307722183}
-  probabilityToBeHurt: 0.05
-  delayBetweenHits: 0.5
-  timeBetweenProjectiles: 0.05
+  probabilityToBeHurt: 0.25
+  timeBetweenProjectiles: 0.65
   timeFromLastHit: 0
   amountToLose: 1
   eventOnHit:
@@ -609,6 +608,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  neverHitBefore: 1
 --- !u!114 &1018526454
 MonoBehaviour:
   m_ObjectHideFlags: 0
