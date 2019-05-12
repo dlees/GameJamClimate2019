@@ -598,7 +598,7 @@ PrefabInstance:
     - target: {fileID: 3839381076910042988, guid: 013cae701ea81ff498e9de6869dd4f74,
         type: 3}
       propertyPath: m_Name
-      value: BossShip
+      value: BossShip Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3839381076910042990, guid: 013cae701ea81ff498e9de6869dd4f74,
         type: 3}
@@ -858,6 +858,10 @@ PrefabInstance:
     - target: {fileID: 1082734544, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
       propertyPath: cameraObjects.monoBehaviourVariable
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082734544, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
+      propertyPath: movementType
+      value: toward
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013cae701ea81ff498e9de6869dd4f74, type: 3}
