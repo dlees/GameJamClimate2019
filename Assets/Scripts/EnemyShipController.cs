@@ -15,6 +15,8 @@ public class EnemyShipController : MonoBehaviour
     public Defend2D[] defenders;
 
     public TransformListReference cameraObjects;
+    public TransformListReferenceBehaviour cameraObjectsReference;
+
     public TransformListReference idlePath;
 
     public TransformListReferenceBehaviour pathReferenceBehaviour;
@@ -49,6 +51,8 @@ public class EnemyShipController : MonoBehaviour
         for (int i = 0; i < turrets.Length; i++) {
             turrets[i].SetActive(i < numWaterJets);
         }
+
+        cameraObjectsReference.setReference(cameraObjects);
 
         foreach (Defend2D defender in defenders) {
             defender.target = players[0];

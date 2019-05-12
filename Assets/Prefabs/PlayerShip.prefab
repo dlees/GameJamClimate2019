@@ -542,6 +542,7 @@ MonoBehaviour:
     Variable: {fileID: 11400000, guid: 9bcdb92f370c59548a7af58b055ae369, type: 2}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
+  bossKilledEvent: {fileID: 11400000, guid: 511bf8805340b2744867e8386d99454b, type: 2}
 --- !u!114 &4921142724999371313
 MonoBehaviour:
   m_ObjectHideFlags: 0
