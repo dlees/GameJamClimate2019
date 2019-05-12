@@ -186,6 +186,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &158764171 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3839381077329199107, guid: 013cae701ea81ff498e9de6869dd4f74,
+    type: 3}
+  m_PrefabInstance: {fileID: 3839381075942259417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &158764176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158764171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a11faf91e7fa544aa0949ffbcba303f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition:
+    chosenType: 0
+    ConstantValue: 1
+    scriptableObjectVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 0}
+    callback:
+      _target: {fileID: 0}
+      _methodName: 
+      _args: []
+      _dynamic: 0
+      _typeName: BoolCallback, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      dirty: 0
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1747660388}
+        m_MethodName: Remove
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 604222490}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1001 &189059335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -451,6 +498,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7598111510666915674, guid: c9764eabccfa1194cad57e677c6141eb,
     type: 3}
   m_PrefabInstance: {fileID: 7598111510456694233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &604222490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3839381076910042990, guid: 013cae701ea81ff498e9de6869dd4f74,
+    type: 3}
+  m_PrefabInstance: {fileID: 3839381075942259417}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &713548083
 GameObject:
@@ -1958,5 +2011,10 @@ PrefabInstance:
       propertyPath: cur.floatRef
       value: 
       objectReference: {fileID: 6970588515107107969}
+    - target: {fileID: 8665981891719212682, guid: a1d9826a70b7be54293c768d6f9178aa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1d9826a70b7be54293c768d6f9178aa, type: 3}

@@ -33,7 +33,9 @@ public class PlayerApproachedEnemyCondition : Condition
             timeInCollider.Value += Time.deltaTime;
         }
         if (timeInCollider.Value > timeRequiredToBoard) {
-            Destroy(enemyApproached);
+            if (Input.GetKeyUp(KeyCode.Space)) {
+                Destroy(enemyApproached);
+            }
         }
     }
 }
