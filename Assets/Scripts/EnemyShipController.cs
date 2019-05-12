@@ -7,7 +7,8 @@ public class EnemyShipController : MonoBehaviour
     public string movementType;
     public int numWaterJets;
 
-    public Seeker movementSeeker;
+    public Seeker playerSeeker;
+    public Seeker idleSeeker;
     public GameObject[] players;
 
     public GameObject[] turrets;
@@ -24,23 +25,24 @@ public class EnemyShipController : MonoBehaviour
         players = GameObject.FindGameObjectsWithTag("Player");
         switch (movementType) {
             case "stopped":
-                movementSeeker.enabled = false;
+                idleSeeker.enabled = false;
+                playerSeeker.enabled = false;
                 break; 
 
             case "away":
-                movementSeeker.destinationTransform = players[0].transform;
-                movementSeeker.shouldMoveAway = true;
+                playerSeeker.destinationTransform = players[0].transform;
+                playerSeeker.shouldMoveAway = true;
                 break;
 
             case "toward":
-                movementSeeker.destinationTransform = players[0].transform;
-                movementSeeker.shouldMoveAway = false;
+                playerSeeker.destinationTransform = players[0].transform;
+                playerSeeker.shouldMoveAway = false;
 
                 break;
 
             default: 
-                movementSeeker.destinationTransform = players[0].transform;
-                movementSeeker.shouldMoveAway = true;
+                playerSeeker.destinationTransform = players[0].transform;
+                playerSeeker.shouldMoveAway = true;
                 break;
         }
 

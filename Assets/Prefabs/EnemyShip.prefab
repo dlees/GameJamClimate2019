@@ -490,7 +490,7 @@ MonoBehaviour:
   timerRangeValue: {fileID: 0}
   secsToWait:
     floatType: 0
-    ConstantValue: 0.1
+    ConstantValue: 0.15
     Variable: {fileID: 0}
     rangeValue: {fileID: 0}
     floatRef: {fileID: 0}
@@ -821,9 +821,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ef94d1b8f8d2c40911844cbff2a82f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementType: toward
+  movementType: stopped
   numWaterJets: 2
-  movementSeeker: {fileID: 1120556182}
+  playerSeeker: {fileID: 1120556182}
+  idleSeeker: {fileID: 3839381075346281217}
   players:
   - {fileID: 0}
   turrets:
