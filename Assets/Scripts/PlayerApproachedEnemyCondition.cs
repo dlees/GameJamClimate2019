@@ -32,5 +32,8 @@ public class PlayerApproachedEnemyCondition : Condition
         if (isApproached) {
             timeInCollider.Value += Time.deltaTime;
         }
+        if (timeInCollider.Value > timeRequiredToBoard) {
+            Destroy(enemyApproached);
+        }
     }
 }
