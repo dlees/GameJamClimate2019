@@ -1,0 +1,1757 @@
+fileFormatVersion: 2
+guid: 9bc2dd1d9f4b64c3892ecb2ab6018548
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 656889171188772215
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_0
+  - first:
+      213: 5669394010131468732
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_1
+  - first:
+      213: 7384771845781760954
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_2
+  - first:
+      213: 7413572178268523851
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_3
+  - first:
+      213: 8912037071701605903
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_4
+  - first:
+      213: 8731143501888555649
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_5
+  - first:
+      213: 3430008301568869797
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_6
+  - first:
+      213: 8053797679142997371
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_7
+  - first:
+      213: -5420043438980606485
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_8
+  - first:
+      213: -6391050141079413788
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_9
+  - first:
+      213: 2108681463386114044
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_10
+  - first:
+      213: -5338214513063722447
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_11
+  - first:
+      213: 2784868055782590058
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_12
+  - first:
+      213: 7555561303786795490
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_13
+  - first:
+      213: -8332807551685872417
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_14
+  - first:
+      213: 9123609455128250076
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_15
+  - first:
+      213: -591643794979256629
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_16
+  - first:
+      213: 8503555491890024929
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_17
+  - first:
+      213: -7233835891414122193
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_18
+  - first:
+      213: -1415635029776841694
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_19
+  - first:
+      213: -831109567311084698
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_20
+  - first:
+      213: -9213043102545156211
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_21
+  - first:
+      213: -3946602549352021791
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_22
+  - first:
+      213: 1532514558963200442
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_23
+  - first:
+      213: -5084426172478558733
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_24
+  - first:
+      213: -3065552752420121557
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_25
+  - first:
+      213: 134003123959229973
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_26
+  - first:
+      213: -5804596536319910470
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_27
+  - first:
+      213: -6213108687852701721
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_28
+  - first:
+      213: 2239933855867558828
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_29
+  - first:
+      213: 4048855586683397310
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_30
+  - first:
+      213: -6005739242336143760
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_31
+  - first:
+      213: 1997606681634445440
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_32
+  - first:
+      213: 77724223169502519
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_33
+  - first:
+      213: -6237080982368295767
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_34
+  - first:
+      213: 4951342525452393143
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_35
+  - first:
+      213: 8684353090383645539
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_36
+  - first:
+      213: -6975064950214614744
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_37
+  - first:
+      213: -1466215098642874775
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_38
+  - first:
+      213: -7043123290863321788
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_39
+  - first:
+      213: 3922183580830029744
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_40
+  - first:
+      213: 1751673588177364065
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_41
+  - first:
+      213: -7438567221929823606
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_42
+  - first:
+      213: -7839092743119260255
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_43
+  - first:
+      213: 536484565743409952
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_44
+  - first:
+      213: 5609510664707186033
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_45
+  - first:
+      213: 8065991854048408149
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_46
+  - first:
+      213: -4873473056325614449
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_47
+  - first:
+      213: -3737110378204823168
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_48
+  - first:
+      213: -5676404693704668900
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_49
+  - first:
+      213: -6709190385202847529
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_50
+  - first:
+      213: -6270315923484042684
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_51
+  - first:
+      213: 2696614293203795842
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_52
+  - first:
+      213: 3697543621328426793
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_53
+  - first:
+      213: -7322936275257489840
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_54
+  - first:
+      213: 8757342221183518596
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_55
+  - first:
+      213: -7369063628227660745
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_56
+  - first:
+      213: -8687912552289767102
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_57
+  - first:
+      213: -1544997818247186130
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_58
+  - first:
+      213: -2008847493972591259
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_59
+  - first:
+      213: -7802476192446088872
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_60
+  - first:
+      213: -4444184193362208055
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_61
+  - first:
+      213: 6701781297683520668
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_62
+  - first:
+      213: 4062703809731525784
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_63
+  - first:
+      213: -6714063479890582588
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_64
+  - first:
+      213: 8561741714108396185
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_65
+  - first:
+      213: -4747539611051646872
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_66
+  - first:
+      213: 5377083686518330911
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_67
+  - first:
+      213: 508195002517745817
+    second: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_68
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 886
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d563223cee948e19d7dc42383484fa
+      internalID: 656889171188772215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 814
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b52b47cef7704fdcaa68751fc5476da
+      internalID: 5669394010131468732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 833
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d952399d7d9d9417caec91190844eb50
+      internalID: 7384771845781760954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 833
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d50cc9297d4849d39a265b20996dade
+      internalID: 7413572178268523851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 833
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186771877db3c4e998fed976e759c2a2
+      internalID: 8912037071701605903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 734
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165fc8ee296d441f1915d5f5ea5e54f2
+      internalID: 8731143501888555649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 755
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93fbcaa6e9db4136ab0b596aaa171f1
+      internalID: 3430008301568869797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 749
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee3f04af238d4f3b859e0cd48769caa
+      internalID: 8053797679142997371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 750
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444e3dbfe9cac40a7b5acd1af4a5fe46
+      internalID: -5420043438980606485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 686
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b1001444c8947b09bfe569db933b1a
+      internalID: -6391050141079413788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 691
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e96dfb8c4c2486ca548c55e6ff7b70
+      internalID: 2108681463386114044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 687
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d074169fc5f481ba5edc9a7b7680b8
+      internalID: -5338214513063722447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 640
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc25a30492620412e99beefbd6b35c3d
+      internalID: 2784868055782590058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 640
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b19da5ff4bc4141a094bd3a1083688
+      internalID: 7555561303786795490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 591
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eec92a3154a4b0caf41058d37119d8
+      internalID: -8332807551685872417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 606
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90db255472764f69a8dcb026eb614db
+      internalID: 9123609455128250076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 615
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec886aa976084b74907b0b909117f3b
+      internalID: -591643794979256629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 542
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca03a4273428c4507be758e18f78a5f5
+      internalID: 8503555491890024929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 607
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863158faa7c01496283709682e011e76
+      internalID: -7233835891414122193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 590
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df9de01fc4c6424088f9072f9c689a0
+      internalID: -1415635029776841694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 477
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a67165a6563b4412a77d217cae3e10a
+      internalID: -831109567311084698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 561
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99c06e5d91274e4c89e8f694958f381
+      internalID: -9213043102545156211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 561
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0be346286a574d38a804031d8051815
+      internalID: -3946602549352021791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 475
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43866a5a26924963ab1e8a4145a2da4
+      internalID: 1532514558963200442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 489
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cbc281654d7447694401505d3f57d9
+      internalID: -5084426172478558733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 414
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a04a430f62af4223aafbe97134caec2
+      internalID: -3065552752420121557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 338
+        width: 74
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5705eecd63444a2ab5411ab8d5d3c85
+      internalID: 134003123959229973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 409
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd0f87e3c3794ac095f40e3ac2f8298
+      internalID: -5804596536319910470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 409
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efc356d695c242628a965a642a0502d
+      internalID: -6213108687852701721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84042e46f87514dd6b07ebf3ce6d0f95
+      internalID: 2239933855867558828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 338
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7393b3ee35b541ad9e97cf867dc58d3
+      internalID: 4048855586683397310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 107
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dcc90683d0f4bcc8812050ce77c0a3
+      internalID: -6005739242336143760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 234
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f47dead021548478e39cd784ea8a4f
+      internalID: 1997606681634445440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d4633d499de4e49a5ba126a35aad82
+      internalID: 77724223169502519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 885
+        width: 144
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e88ef178b63463799c4c6dd932511f
+      internalID: -6237080982368295767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 798
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0d399b26f214702b3e523529a85d3d
+      internalID: 4951342525452393143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 798
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5616f7753e37b438fba36400b582bc5f
+      internalID: 8684353090383645539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 798
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c7933e6703941dba09a777d60ede11
+      internalID: -6975064950214614744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 800
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5e0972d212c4d239b2943e0da6d80a
+      internalID: -1466215098642874775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 798
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb02c7cc14424013a865b5837e7c0ad
+      internalID: -7043123290863321788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 798
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3573cb8c5a05b4738babe3abfc93d1b8
+      internalID: 3922183580830029744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 749
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b817622e416a74640ba893921f5f9ac0
+      internalID: 1751673588177364065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 750
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02074c925d234f0d879b89415fdf34a
+      internalID: -7438567221929823606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 718
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcdc3fcb6c924f858d3442be3fea84a
+      internalID: -7839092743119260255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 686
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c116633e5664a81995a9f95dd7edfb
+      internalID: 536484565743409952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 686
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939001ba084fa4c6ca6e0b03dfd3f02f
+      internalID: 5609510664707186033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 670
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78983ea2774a48dfaa924112de6187a
+      internalID: 8065991854048408149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5003b1d9c9d46519a30e44db1811d3
+      internalID: -4873473056325614449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 639
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c81d9ff7d5c8408fb75d71051cebfa0
+      internalID: -3737110378204823168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 638
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e212ffc05784b44a376b1fa8eb16b9
+      internalID: -5676404693704668900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 654
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8046e6146427d4a058cea6958f5c0533
+      internalID: -6709190385202847529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 622
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3331a60ba05e4d9d83c9e1c535cbc1f
+      internalID: -6270315923484042684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 621
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6935637ca8d4d424ca66c4cab8105648
+      internalID: 2696614293203795842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 558
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4198c8380a2554f31978a711aeb265b9
+      internalID: 3697543621328426793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 557
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdddb67532eca419d938aba850da88ad
+      internalID: -7322936275257489840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 561
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215e80e11acff49af8734053354489ce
+      internalID: 8757342221183518596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 590
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033b64156fe8c4b5c81c9f311e9811f4
+      internalID: -7369063628227660745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 590
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed78f6ea933244d059fd21b57033bf7e
+      internalID: -8687912552289767102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 592
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8b0512755eb46af946a6f0b1104733
+      internalID: -1544997818247186130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 622
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1daa7e005ae450999de7490475ec6f
+      internalID: -2008847493972591259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 625
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640a1665e09174c239677e10172f4231
+      internalID: -7802476192446088872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 593
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ef6580e05254ee29dd41fac26d0f14
+      internalID: -4444184193362208055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 590
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e929ee11b504974af77205c992275f
+      internalID: 6701781297683520668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 558
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e215f436a970043fc8d63d445eb33ad9
+      internalID: 4062703809731525784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c846bad36fe04a409056bc55040bfa0
+      internalID: -6714063479890582588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d26af8a76a52469389f53cf5f7eb107
+      internalID: 8561741714108396185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936e437f34a094f5dbe6f9769abe415b
+      internalID: -4747539611051646872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 365
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eede311247b9b49b1bdbd5dbefa5a859
+      internalID: 5377083686518330911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mishmash_of_tropical_tiles_by_princess_phoenix_dauv0fp_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 382
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d8bf2c6c4394fda9861bc3c6f07505
+      internalID: 508195002517745817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 991d21789744b427dbec0802a34cbf33
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
