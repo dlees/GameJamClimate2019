@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 1018526457}
   - component: {fileID: 1018526458}
   - component: {fileID: 1018526459}
+  - component: {fileID: 4921142724999371313}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -284,4 +285,30 @@ MonoBehaviour:
     rangeValue: {fileID: 0}
     floatRef: {fileID: 938234131307722183}
   probabilityToBeHurt: 0.05
+  delayBetweenHits: 0.05
+  timeBetweenProjectiles: 0.05
+  timeFromLastHit: 0
+  amountToLose: 1
+--- !u!114 &4921142724999371313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6970588516592878798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c42d1a81983714cb006b222b2d8fda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthVariableToDecrement:
+    floatType: 3
+    ConstantValue: 0
+    Variable: {fileID: 0}
+    rangeValue: {fileID: 0}
+    floatRef: {fileID: 938234131307722183}
+  probabilityToBeHurt: 0.05
+  delayBetweenHits: 0.5
+  timeBetweenProjectiles: 0.05
+  timeFromLastHit: 0
   amountToLose: 1
