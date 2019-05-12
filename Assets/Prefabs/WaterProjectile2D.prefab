@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2853309112697465063}
   m_Layer: 0
   m_Name: WaterProjectile2D
-  m_TagString: Untagged
+  m_TagString: WaterProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
