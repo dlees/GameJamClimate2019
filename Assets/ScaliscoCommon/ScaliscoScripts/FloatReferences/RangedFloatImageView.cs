@@ -42,9 +42,14 @@ public class RangedFloatImageView : MonoBehaviour {
 
         for (int i = 0; i < images.Count; i++) {
             if (rangedFloat.Value < i + 1) {
-                images[i].sprite = unobtainedSprite;
+                if (unobtainedSprite == null) {
+                    images[i].enabled = false;
+                } else {
+                    images[i].sprite = unobtainedSprite;
+                }
             } else {
                 images[i].sprite = obtainedSprite;
+                images[i].enabled = true;
             }
         }
 	}
