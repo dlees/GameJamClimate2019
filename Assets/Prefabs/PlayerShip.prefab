@@ -200,9 +200,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   body: {fileID: 6970588516592878799}
-  accel: 2
+  accel: 1.5
   turnSpeed: 0.5
-  maxSpeed: 5
+  maxSpeed: 4.5
 --- !u!50 &6970588516592878799
 Rigidbody2D:
   serializedVersion: 4

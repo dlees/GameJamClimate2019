@@ -445,8 +445,8 @@ MonoBehaviour:
   body: {fileID: 9106533000388326362}
   objectToMove: {fileID: 3839381076910042990}
   accel: 0.5
-  turnSpeed: 0.025
-  maxSpeed: 4.5
+  turnSpeed: 0.0125
+  maxSpeed: 4
 --- !u!1 &3839381077191929745
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,11 +496,11 @@ MonoBehaviour:
   turret: {fileID: 515469654}
   projectile: {fileID: 9148531879597702067, guid: d0e172fc215ee487b8906e5bd604b142,
     type: 3}
-  minDistance: 2
-  maxDistance: 10
-  turnSpeed: 1
-  minAngleDiffToFire: 1
-  ProjectileFireVelocity: 150
+  minDistance: 0.75
+  maxDistance: 9
+  turnSpeed: 7
+  minAngleDiffToFire: 3
+  ProjectileFireVelocity: 100
 --- !u!114 &1561872971
 MonoBehaviour:
   m_ObjectHideFlags: 0
