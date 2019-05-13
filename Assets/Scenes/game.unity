@@ -1756,10 +1756,5 @@ PrefabInstance:
       propertyPath: compared.rangeValue
       value: 
       objectReference: {fileID: 1610545908}
-    - target: {fileID: 4312661484376175418, guid: a1d9826a70b7be54293c768d6f9178aa,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.1000061
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1d9826a70b7be54293c768d6f9178aa, type: 3}
