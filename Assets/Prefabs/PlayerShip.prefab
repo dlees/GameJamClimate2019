@@ -374,6 +374,77 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   previousValue: 5
   shouldTrackdecrement: 1
+--- !u!1 &5389732526181137466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5840467550864373189}
+  - component: {fileID: 3492988753098958874}
+  - component: {fileID: 8156399481687815989}
+  m_Layer: 0
+  m_Name: WaterSplashOnHit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5840467550864373189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5389732526181137466}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6970588516592878802}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3492988753098958874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5389732526181137466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849fd6647f3999d4cb0c60dbf5e96a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  template: {fileID: 5297666203785116265, guid: 0352042bdd153b549a1b310e19952a8f,
+    type: 3}
+  parentOverride: {fileID: 5840467550864373189}
+  overrideTransform: 1
+  positionOverride:
+    chosenType: 2
+    ConstantValue: {x: 0, y: 0, z: 0}
+    scriptableObjectVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 8156399481687815989}
+  rotationOverride:
+    chosenType: 0
+    ConstantValue: {x: 0, y: 0, z: 0, w: 0}
+    scriptableObjectVariable: {fileID: 0}
+    monoBehaviourVariable: {fileID: 0}
+--- !u!114 &8156399481687815989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5389732526181137466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e9e2c86c3d39848855f7eabb589e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transformToUse: {fileID: 6970588516592878802}
 --- !u!1 &6970588516592878798
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +484,7 @@ Transform:
   - {fileID: 1610545907}
   - {fileID: 374921295}
   - {fileID: 42214413}
+  - {fileID: 5840467550864373189}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -564,12 +636,24 @@ MonoBehaviour:
   probabilityToBeHurt: 0.25
   timeBetweenProjectiles: 0.65
   timeFromLastHit: 0
+  timeToGainWaterProtection: 10
   amountToLose: 1
   eventOnHit:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 42214414}
         m_MethodName: makeSpriteFlashBlue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3492988753098958874}
+        m_MethodName: createObject
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -608,7 +692,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  neverHitBefore: 1
 --- !u!114 &1018526454
 MonoBehaviour:
   m_ObjectHideFlags: 0
