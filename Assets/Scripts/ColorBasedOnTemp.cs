@@ -10,19 +10,19 @@ public class ColorBasedOnTemp : MonoBehaviour
 
     void Update()
     {
-        if (temp < .3) {
+        if (temp < .5) {
             foregroundBar.color = colors[0]; 
         } else
-        if (temp < 1) {
+        if (temp < 1.5) {
             foregroundBar.color = colors[1];
         } else
-        if (temp < 1.5) {
+        if (temp < 2) {
             foregroundBar.color = colors[2];
         } else
-        if (temp < 2) {
+        if (temp < 3.5) {
             foregroundBar.color = colors[3];
         } else
-        if (temp < 3.5) {
+       {
             foregroundBar.color = colors[4];
         }
     }
