@@ -25,10 +25,10 @@ public class PlayerMovement : MonoBehaviour {
     void FixedUpdate() {
 
         //if up pressed
-        if (vertical > 0)
+        if (vertical != 0)
         {
             //add force
-            body.AddRelativeForce(Vector2.up * accel);
+            body.AddRelativeForce(Vector2.up * accel * vertical);
 
             //if we are going too fast, cap speed
             if (body.velocity.magnitude > maxSpeed)
@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour {
                 body.velocity = body.velocity.normalized * maxSpeed;
             }
 
-        }
+        } 
         engineAudioSource.pitch = (0.15f + (body.velocity.magnitude / maxSpeed) * 2.75f);
 
         //if right/left pressed add torque to turn
